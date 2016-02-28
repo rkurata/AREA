@@ -1,0 +1,13 @@
+.info-jumbotron{
+  background-image: url('../img/1.jpg');
+  background-size: cover;
+  height: 300px;
+}
+#day{
+	text-align:right;
+	padding-right:15%;
+	width:60px;
+}
+#status td{
+	float:left;
+}

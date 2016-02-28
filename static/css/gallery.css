@@ -1,0 +1,12 @@
+.styles-jumbotron{
+  background-image: url('../img/6.png');
+  background-size: cover;
+  height: 300px;
+}
+.gallery-section img{
+	margin-bottom:5%;
+}
+.ig-link{
+	text-align:center;
+	margin-bottom:5%;
+}

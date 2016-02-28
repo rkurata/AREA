@@ -5,36 +5,35 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="main.css">
-  <script src="dist/slideout.min.js"></script>
-	<script>
-	  var slideout = new Slideout({
-	    'panel': document.getElementById('panel'),
-	    'menu': document.getElementById('menu'),
-	    'padding': 256,
-	    'tolerance': 70
-	  });
-	</script>
+  <link rel="stylesheet" type="text/css" href="static/css/main.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
-<body>
-	<header class="container">
-		<div class="row">
-			<div class="col-xs-4">SAX Hair
-			</div>
-			<div class="col-xs-4">
-			</div>
-			<div class="col-xs-2">
-			</div>
-			<div class="col-xs-2">
-				<i class="fa fa-bars fa-lg"></i>
-			</div>
-		</div>
-	</header>
 
-	<section class="jumbotron">
+<body>
+	
+	<nav id="menu">
+		<section class="menu-section">
+	        <ul class="menu-section-list">
+	          <li><a href="index.html">About The Owner</a></li>
+	          <li><a href="static/links/services.html">Services</a></li>
+	          <li><a href="static/links/gallery.html">Styles</a></li>
+	          <li><a href="static/links/information.html">Salon Info</a></li>
+	        </ul>
+	    </section>
+	</nav>
+
+	<main id="panel">
+		<header>
+			<div class="row">
+				<div class="col-xs-6">
+					<i class="fa fa-bars fa-lg toggle-button"></i>
+				</div>
+				<div class="col-xs-6 logo"><img src="static/img/nav-logo.jpg"></div>
+			</div>
+		</header>
+
+		<!--=========================page content goes here=======================-->
+		<section class="jumbotron">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
@@ -42,142 +41,102 @@
 			</div>
 			<div class="row">
 				<div class="col-xs-12 text-center">
-					<button>Why SAX?</button>
+					<!--<button class="btn btn-default CTA">down arrow icon</button>-->
+					<center><a class="scroll-arrow" onClick="document.getElementById('bio').scrollIntoView();"><img src="static/img/down.png"></a></center>
 				</div>
 			</div>
 		</div>
-	</section>
+		</section>
 
-	<div class="row">
-		<div class="col-xs-12 text-center">
-			<h3>Yelp Review</h3>
-			<svg width="400" height="120">
-  				<rect width="100%" height="100" style="fill:rgb(255,255,255);stroke-width:1;stroke:rgb(0,0,0);" />
-			</svg>
-		</div>
-	</div>
+		<div class="row">
+			<div class="col-xs-12 text-center">
+				<h3>Yelp Review</h3>
+					<a href="https://www.yelp.com/biz/sax-hair-san-diego" target="_blank"><img src="http://placehold.it/300x100"></a>
 
-	<section class="container" id="bio">
-		<div class="row">
-			<div class="col-xs-12 text-center">
-				<h2>Meet Your Stylists</h2>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-xs-12 text-center">
-				<!-- Image -->
+
+		<section class="container" id="bio">
+			<div class="row bio-intro">
+				<div class="col-xs-12 text-center ">
+					<h2>Meet Your Stylists</h2>
+				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-xs-12 text-center">
-				<p>Hello, I'm Steven Sachs.</p>
+			<div class="row">
+				<div class="col-xs-12 bio-pics">
+					<center><img src="static/img/steven2.png">
+					<h3>Steven</h3>
+					<h5>Salon Owner</h5></center>
+				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-xs-6 text-center">
-				<button>My Re-Do Policy</button>
+			<div class="row">
+				<div class="col-xs-12">
+					
+					<p>Hello, I'm Steven Sachs. As a child I knew very young I was overly passionate about creative arts. I didn't exactly know what, however I knew it had to do with hands on. Music and Art appealed to the most, but I stopped playing classical piano for my family and friends, the day my mother handed me my first hair straightener in 8th grade. After coloring and styling my own hair, I remember the high I felt when people treated me differently based on my appearance. I knew then, it was the beauty and wellness industry. I would beg my friends, my mom or anyone around me to let me practice different techniques on their hair. When it wouldn't come out correct, I recall being so frustrated, that I wouldn't stop until I figured it out. I improved my physical self and educated my passion. I lost over 60 lbs my junior & senior year of high school and made a lifestyle transformation. By then, I was failing all of my classes and doing "practice hair" for my friends, my classmates, my mother & her friends. When my teachers saw my passion for hair, they stopped lecturing me on my grades and helped me pick a beauty school I would immediately start in after that summer. I was lucky enough to then become hired by the best manager empire beauty has ever had. Through beauty school, I stayed passionate and would educate and sell hair products at a couple locations for empire beauty. One of the owners decided to give me the opportunity of a lifetime when I finally received my cosmetology license. Remodeling what was once the "employee break room" became the first "Sax Hair." I put my heart, soul & energy 100% into making sure that every client I took was thrilled and satisfied with my art. If my 22 year old self could approach the 19 year old me, I would talk his ear off. Trial and Tribulation has made the "business owner" I am today... However; Giving, Kindness, Honesty, Karma & Sacrifice has made me, an Artist.</p>
+				</div>
 			</div>
-			<div class="col-xs-6 text-center">
-				<button>Text Me!</button>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-xs-12 text-center">
-				<!-- Image -->
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-xs-12 text-center">
+			<div class="row">
+				<div class="col-xs-6 text-center">
+					<button class="btn btn-default">My Re-Do Policy</button>
+				</div>
+				<div class="col-xs-6 text-center">
+					<button class="btn btn-default">Text Me!</button>
+				</div>
 				<hr width="75%" />
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-xs-12 text-center">
-				<p>Hello, I'm Jon.</p>
-			</div>
-		</div>
-	</section>
 
-	<section class="container" id="beforeandafter">
-		<div class="row">
-			<div class="col-xs-12">
+			<div class="row">
+				<div class="col-xs-12 bio-pics">
+					<center><img src="static/img/jon2.png">
+						<h3>Jon.</h3>
+					<h5>Assistant</h5></center>
+				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-xs-12 text-center">
-				<h3>Before & After</h3>
+			
+			<div class="row">
+				<div class="col-xs-12">
+					
+				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-xs-6 text-center">
-				<svg width="400" height="120">
-  					<rect width="50%" height="100" style="fill:rgb(255,255,255);stroke-width:1;stroke:rgb(0,0,0);" />
-				</svg>
-			</div>
-			<div class="col-xs-6 text-center">
-				<svg width="400" height="120">
-  					<rect width="50%" height="100" style="fill:rgb(255,255,255);stroke-width:1;stroke:rgb(0,0,0);" />
-				</svg>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-xs-6 text-center">
-				<svg width="400" height="120">
-  					<rect width="50%" height="100" style="fill:rgb(255,255,255);stroke-width:1;stroke:rgb(0,0,0);" />
-				</svg>
-			</div>
-			<div class="col-xs-6 text-center">
-				<svg width="400" height="120">
-  					<rect width="50%" height="100" style="fill:rgb(255,255,255);stroke-width:1;stroke:rgb(0,0,0);" />
-				</svg>
-			</div>
-		</div>
-	</section>
+		</section>
 
-	<section class="container" id="location">
-		<div class="row">
-			<div class="col-xs-12 text-center">
-				<h2>Location & Hours</h2>
+		<footer class="container">
+			<div class="row">
+				<div class="col-xs-6">
+					<button class="btn btn-default">Book Now!</button>
+				</div>
+				<div class="col-xs-2">
+					<a href="https://www.facebook.com/SaxHair/" target="_blank"><img src="http://placehold.it/45x45"></a>
+					FB
+				</div>
+				<div class="col-xs-2">
+					<a href="https://www.instagram.com/stevensax/" target="_blank"><img src="http://placehold.it/45x45"></a>
+					IG
+				</div>
+				<div class="col-xs-2">
+					<a href="https://www.yelp.com/biz/sax-hair-san-diego" target="_blank"><img src="http://placehold.it/45x45"></a>
+				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-xs-6 text-center">
-				<p>8843 Villa La Jolla Dr San Diego, CA 92037</p>
-				<p>(in my cozy corner in the back of Empire Beauty!)</p>
-			</div>
-			<div class="col-xs-6 text-left">
-				<p>Monday   Closed</p>
-				<p>Tueday   9:00 am - 8:00 pm</p>
-				<p>Wednesday   9:00 am - 8:00 pm</p>
-				<p>Thursday   9:00 am - 8:00 pm</p>
-				<p>Friday   9:00 am - 8:00 pm</p>
-				<p>Saturday   9:00 am - 8:00 pm</p>
-				<p>Sunday   Closed</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-xs-12 text-center">
-				<h2>We do not take walk-ins</h2>
-				<p>This is why</p>
-			</div>
-		</div>
-	</section>
+		</footer>
+			<!--=========================page content goes ends here=================================-->
+	</main>
 
-	<footer class="container">
-		<div class="row">
-			<div class="col-xs-6">
-				<button>Book Now!</button>
-			</div>
-			<div class="col-xs-2">
-				<button>f</button>
-			</div>
-			<div class="col-xs-2">
-				<button>I</button>
-			</div>
-			<div class="col-xs-2">
-				<button>Y</button>
-			</div>
-		</div>
-	</footer>
+	<!--script for slideout nav-->
+	<script src="dist/slideout.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/0.1.11/slideout.min.js"></script>
+    <script>
+      var slideout = new Slideout({
+        'panel': document.getElementById('panel'),
+        'menu': document.getElementById('menu'),
+        'padding': 256,
+        'tolerance': 70
+      });
+
+      // Toggle button
+      document.querySelector('.toggle-button').addEventListener('click', function() {
+        slideout.toggle();
+      });
+	</script>
+  
 </body>
 </html>

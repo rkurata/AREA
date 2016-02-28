@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Salon Information</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/information.css">
+  <link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+
+<body>
+	<!--=================================nav menu=============================-->
+	<nav id="menu">
+		<section class="menu-section">
+	        <ul class="menu-section-list">
+	          <li><a href="../../index.html">About The Owner</a></li>
+	          <li><a href="services.html">Services</a></li>
+	          <li><a href="gallery.html">Styles</a></li>
+	          <li><a href="information.html">Salon Info</a></li>
+	        </ul>
+	    </section>
+	</nav>
+
+	<main id="panel">
+		<header>
+			<div class="row">
+				<div class="col-xs-6">
+					<i class="fa fa-bars fa-lg toggle-button"></i>
+				</div>
+				<div class="col-xs-6 logo"><img src="../img/nav-logo.jpg"></div>
+			</div>
+		</header>
+
+		<!--=========================page content goes here=======================-->
+		<div class="container">
+		<section class="info-jumbotron">
+			<!-- Image -->
+			<div class="row">
+				<div class="col-xs-12">
+					<h1>Information</h1>
+				</div>
+			</div>
+		</section>
+
+		<section class="content">
+			<h3>Hours & Location</h3>
+			<div class="row">
+				<div class="col-xs-6">
+					<table>
+						<tr>
+							<td id="day">M</td>
+							<td id="status">Closed</td>
+						</tr>
+						<tr>
+							<td id="day">Tu-Sa</td>
+							<td id="status">9-8</td>
+						</tr>
+						<tr>
+							<td id="day">Su</td>
+							<td id="status">Closed</td>
+						</tr>
+					</table>
+				</div>
+
+				<div class="col-xs-6">
+					<b>Empire Beauty</b>
+					<p>8843 Villa La Jolla Dr
+					<br>San Diego, CA 92037</p>
+				</div>
+			</div>
+			<div class="row appointments">
+				<div class="col-xs-12">
+					<h3>Appointments Only Please!</h3>
+					<p>These hours are for appointments only. I do not take walk-ins, and I apologize in advance if this causes you any inconvenience. Having an appointment-only policy gives me more time to focus on you, and give your hair the attention and care it deserves.</p>
+				</div>
+			</div>
+			<div class="row consultations">
+				<div class="col-xs-12">
+					<h3>Consultations</h3>
+					<p>If you're new, I'd love to schedule a consultation with you so that we can meet, and decide on the plan of action for your hair together.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					To schedule an appointment or consultation, feel free to call or text me!
+					###-###-####
+				</div>
+			</div>
+			
+		</section>
+		</div>
+
+		<footer class="container">
+			<div class="row">
+				<div class="col-xs-6">
+					<button class="btn btn-default">Book Now!</button>
+				</div>
+				<div class="col-xs-2">
+					<a href="https://www.facebook.com/SaxHair/" target="_blank"><img src="http://placehold.it/45x45"></a>
+					FB
+				</div>
+				<div class="col-xs-2">
+					<a href="https://www.instagram.com/stevensax/" target="_blank"><img src="http://placehold.it/45x45"></a>
+					IG
+				</div>
+				<div class="col-xs-2">
+					<a href="https://www.yelp.com/biz/sax-hair-san-diego" target="_blank"><img src="http://placehold.it/45x45"></a>
+				</div>
+			</div>
+		</footer>
+			<!--=========================page content goes ends here=================================-->
+	</main>
+
+	
+
+	<!--script for slideout nav-->
+	<script src="dist/slideout.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/0.1.11/slideout.min.js"></script>
+    <script>
+      var slideout = new Slideout({
+        'panel': document.getElementById('panel'),
+        'menu': document.getElementById('menu'),
+        'padding': 256,
+        'tolerance': 70
+      });
+
+      // Toggle button
+      document.querySelector('.toggle-button').addEventListener('click', function() {
+        slideout.toggle();
+      });
+	</script>
+</body>
+</html>
