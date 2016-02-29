@@ -2,10 +2,14 @@
 <html lang="en">
 <head>
   <title>Steven's Styles</title>
-  <meta charset="utf-8">
+   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.4.0/clipboard.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/0.1.11/slideout.min.js"></script>	
+
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="../css/gallery.css">
@@ -18,7 +22,7 @@
 	<nav id="menu">
 		<section class="menu-section">
 	        <ul class="menu-section-list">
-	          <li><a href="../../index.html">About The Owner</a></li>
+	          <li><a href="../../index.html#bio">About The Owner</a></li>
 	          <li><a href="services.html">Services</a></li>
 	          <li><a href="gallery.html">Styles</a></li>
 	          <li><a href="information.html">Salon Info</a></li>
@@ -50,55 +54,55 @@
 		<div class="row gallery-section">
 			<center>
 				<div class="col-md-4 col-sm-6 col-xs-12 img-responsive gallery-img">
-					<img src="http://placehold.it/350x350">
+					<img src="../img/1.jpg">
 				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12 img-responsive">
-					<img src="http://placehold.it/350x350">
+				<div class="col-md-4 col-sm-6 col-xs-12 img-responsive gallery-img">
+					<img src="../img/3.jpg">
 				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12 img-responsive">
-					<img src="http://placehold.it/350x350">
+				<div class="col-md-4 col-sm-6 col-xs-12 img-responsive gallery-img">
+					<img src="../img/4.jpg">
 				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12 img-responsive">
-					<img src="http://placehold.it/350x350">
+				<div class="col-md-4 col-sm-6 col-xs-12 img-responsive gallery-img">
+					<img src="../img/6.png">
 				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12 img-responsive">
-					<img src="http://placehold.it/350x350">
+				<div class="col-md-4 col-sm-6 col-xs-12 img-responsive gallery-img">
+					<img src="../img/7.jpg">
 				</div>
 			</center>
 		</div>
 
 		<div class="row ig-link">
-			<p>See more of Steven's work here:</p>
-			(instagram icon)
-			<a href="https://www.instagram.com/stevensax/" target="_blank"><img src="http://placehold.it/50x50"></a>
+			<p>See more of Steven's work
+			<a class="btn btn-social-icon btn-instagram btn-lg" href="https://www.instagram.com/stevensax/" target="_blank"><span class="fa fa-instagram"></span></a></p>
 		</div>
 	</div>
 
-	<footer class="container">
-		<div class="row">
-			<div class="col-xs-6">
-				<button class="btn btn-default">Book Now!</button>
-			</div>
-			<div class="col-xs-2">
-				<a href="https://www.facebook.com/SaxHair/" target="_blank"><img src="http://placehold.it/45x45"></a>
-				FB
-			</div>
-			<div class="col-xs-2">
-				<a href="https://www.instagram.com/stevensax/" target="_blank"><img src="http://placehold.it/45x45"></a>
-				IG
-			</div>
-			<div class="col-xs-2">
-				<a href="https://www.yelp.com/biz/sax-hair-san-diego" target="_blank"><img src="http://placehold.it/45x45"></a>
-				Y
-			</div>
-		</div>
-	</footer>
 			<!--=========================page content goes ends here=================================-->
 	</main>
 
+	<!-- Modal -->
+  	<div class="modal fade" id="textModal" role="dialog">
+    	<div class="modal-dialog">
+    
+	      <!-- Modal content-->
+	      <div class="modal-content">
+	        <div class="modal-header">
+	          <button type="button" class="close" data-dismiss="modal">&times;</button>
+	          <h4 class="modal-title">Text or Call for an appointment!</h4><!--<a class="btn btn-default" href="sms:5628338661">Send SMS to us </a>-->
+	        </div>
+	        <div class="modal-body">
+	        	<input id="post-shortlink" value="https://ac.me/qmE_jpnYXFo">
+	        	<button class="btn btn-info" id="copy-button" data-clipboard-target="#post-shortlink">Copy</button>
+	        </div>
+	        <div class="modal-footer">
+	          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        </div>
+	      </div>
+	      
+	    </div>
+  	</div>
+
 	<!--script for slideout nav-->
-	<script src="dist/slideout.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/0.1.11/slideout.min.js"></script>
     <script>
       var slideout = new Slideout({
         'panel': document.getElementById('panel'),
@@ -112,5 +116,33 @@
         slideout.toggle();
       });
 	</script>
+
+	<!--script for copy functionality in modal-->
+  	<script>
+		(function(){
+		    new Clipboard('#copy-button');
+		})();
+	</script>
 </body>
+
+<footer id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-6">
+							<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#textModal" id="textBtn">Text Me!</button>
+						</div>
+						<div class="col-xs-2">
+							<a class="btn btn-social-icon btn-facebook btn-lg" href="https://www.facebook.com/SaxHair/" target="_blank"><span class="fa fa-facebook"></span></a>
+							
+						</div>
+						<div class="col-xs-2">
+							<a class="btn btn-social-icon btn-instagram btn-lg" href="https://www.instagram.com/stevensax/" target="_blank"><span class="fa fa-instagram"></span></a>
+							
+						</div>
+						<div class="col-xs-2">
+							<a class="btn btn-social-icon btn-google btn-lg" href="https://www.yelp.com/biz/sax-hair-san-diego" target="_blank"><span class="fa fa-yelp"></span></a>
+						</div>
+					</div>
+				</div>
+			</footer>
 </html>

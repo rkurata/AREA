@@ -6,10 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.4.0/clipboard.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/0.1.11/slideout.min.js"></script>	
+
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="../css/services.css">
   <link rel="stylesheet" type="text/css" href="../css/main.css">
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  </style>
 </head>
 
 <body>
@@ -17,7 +28,7 @@
 	<nav id="menu">
 		<section class="menu-section">
 	        <ul class="menu-section-list">
-	          <li><a href="../../index.html">About The Owner</a></li>
+	          <li><a href="../../index.html#bio">About The Owner</a></li>
 	          <li><a href="services.html">Services</a></li>
 	          <li><a href="gallery.html">Styles</a></li>
 	          <li><a href="information.html">Salon Info</a></li>
@@ -45,7 +56,7 @@
 		</div>
 		</section>
 		<section class="container">
-			<div class="row">
+			<!--<div class="row">
 				<div class="col-xs-12">
 					<ul class="nav nav-pills">
 					  <li class="active"><a href="#">Coloring $200+</a></li>
@@ -56,23 +67,243 @@
 					  <li><a href="#">Global Keratin $300+</a></li>
 					</ul>
 				</div>
-			</div>
-			<div class="container" id="stylespane">
-				<div class="row">
-					<div class="col-xs-12 text-center">
-						<img src="http://placehold.it/300x300">
-					</div>
+			</div>-->
+			<br>
+			
+
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Coloring $200+</a>
+                </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in">
+                <div class="panel-body">
+                	<div class="container" id="stylespane">
+				<div class="container">
+				  <br>
+				  <div id="colorCarousel" class="carousel slide" data-ride="carousel">
+				    <!-- Indicators -->
+				    <ol class="carousel-indicators">
+				      <li data-target="#colorCarousel" data-slide-to="0" class="active"></li>
+				      <li data-target="#colorCarousel" data-slide-to="1"></li>
+				      <li data-target="#colorCarousel" data-slide-to="2"></li>
+				      <li data-target="#colorCarousel" data-slide-to="3"></li>
+				    </ol>
+
+				    <!-- Wrapper for slides -->
+				    <div class="carousel-inner" role="listbox">
+				      <div class="item active">
+				        <img src="../img/1.jpg" alt="1" width="460" height="345">
+				      </div>
+
+				      <div class="item">
+				        <img src="../img/3.jpg" alt="3" width="460" height="345">
+				      </div>
+				    
+				      <div class="item">
+				        <img src="../img/6.png" alt="6" width="460" height="345">
+				      </div>
+
+				      <div class="item">
+				        <img src="../img/7.jpg" alt="7" width="460" height="345">
+				      </div>
+				    </div>
+
+				    <p>ASDFASDFASDFASDF</p>
+
+				    <!-- Left and right controls -->
+				    <a class="left carousel-control" href="#colorCarousel" role="button" data-slide="prev">
+				      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				      <span class="sr-only">Previous</span>
+				    </a>
+				    <a class="right carousel-control" href="#colorCarousel" role="button" data-slide="next">
+				      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				      <span class="sr-only">Next</span>
+				    </a>
+				  </div>
 				</div>
-				<div class="row">
-					<div class="col-xs-12 text-center">
-						<p>Description</p>
-					</div>
+			</div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Haircut $85+</a>
+                </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse">
+                <div class="panel-body">
+                	<div class="container" id="stylespane">
+				<div class="container">
+				  <br>
+				  <div id="haircutCarousel" class="carousel slide" data-ride="carousel">
+				    <!-- Indicators -->
+				    <ol class="carousel-indicators">
+				      <li data-target="#haircutCarousel" data-slide-to="0" class="active"></li>
+				      <li data-target="#haircutCarousel" data-slide-to="1"></li>
+				      <li data-target="#haircutCarousel" data-slide-to="2"></li>
+				      <li data-target="#haircutCarousel" data-slide-to="3"></li>
+				    </ol>
+
+				    <!-- Wrapper for slides -->
+				    <div class="carousel-inner" role="listbox">
+				      <div class="item active">
+				        <img src="../img/1.jpg" alt="1" width="460" height="345">
+				      </div>
+
+				      <div class="item">
+				        <img src="../img/3.jpg" alt="3" width="460" height="345">
+				      </div>
+				    
+				      <div class="item">
+				        <img src="../img/6.png" alt="6" width="460" height="345">
+				      </div>
+
+				      <div class="item">
+				        <img src="../img/7.jpg" alt="7" width="460" height="345">
+				      </div>
+				    </div>
+
+				    <p>ASDFASDFASDFASDF</p>
+
+				    <!-- Left and right controls -->
+				    <a class="left carousel-control" href="#haircutCarousel" role="button" data-slide="prev">
+				      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				      <span class="sr-only">Previous</span>
+				    </a>
+				    <a class="right carousel-control" href="#haircutCarousel" role="button" data-slide="next">
+				      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				      <span class="sr-only">Next</span>
+				    </a>
+				  </div>
 				</div>
 			</div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Toner/Touch-Up $85-200+</a>
+                </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse">
+                <div class="panel-body">
+                	<div class="container" id="stylespane">
+				<div class="container">
+				  <br>
+				  <div id="tonerCarousel" class="carousel slide" data-ride="carousel">
+				    <!-- Indicators -->
+				    <ol class="carousel-indicators">
+				      <li data-target="#tonerCarousel" data-slide-to="0" class="active"></li>
+				      <li data-target="#tonerCarousel" data-slide-to="1"></li>
+				      <li data-target="#tonerCarousel" data-slide-to="2"></li>
+				      <li data-target="#tonerCarousel" data-slide-to="3"></li>
+				    </ol>
+
+				    <!-- Wrapper for slides -->
+				    <div class="carousel-inner" role="listbox">
+				      <div class="item active">
+				        <img src="../img/1.jpg" alt="1" width="460" height="345">
+				      </div>
+
+				      <div class="item">
+				        <img src="../img/3.jpg" alt="3" width="460" height="345">
+				      </div>
+				    
+				      <div class="item">
+				        <img src="../img/6.png" alt="6" width="460" height="345">
+				      </div>
+
+				      <div class="item">
+				        <img src="../img/7.jpg" alt="7" width="460" height="345">
+				      </div>
+				    </div>
+
+				    <p>ASDFASDFASDFASDF</p>
+
+				    <!-- Left and right controls -->
+				    <a class="left carousel-control" href="#tonerCarousel" role="button" data-slide="prev">
+				      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				      <span class="sr-only">Previous</span>
+				    </a>
+				    <a class="right carousel-control" href="#tonerCarousel" role="button" data-slide="next">
+				      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				      <span class="sr-only">Next</span>
+				    </a>
+				  </div>
+				</div>
+			</div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Global Kertain $300+</a>
+                </h4>
+            </div>
+            <div id="collapseFour" class="panel-collapse collapse">
+                <div class="panel-body">
+                	<div class="container" id="stylespane">
+				<div class="container">
+				  <br>
+				  <div id="kertainCarousel" class="carousel slide" data-ride="carousel">
+				    <!-- Indicators -->
+				    <ol class="carousel-indicators">
+				      <li data-target="#kertainCarousel" data-slide-to="0" class="active"></li>
+				      <li data-target="#kertainCarousel" data-slide-to="1"></li>
+				      <li data-target="#kertainCarousel" data-slide-to="2"></li>
+				      <li data-target="#kertainCarousel" data-slide-to="3"></li>
+				    </ol>
+
+				    <!-- Wrapper for slides -->
+				    <div class="carousel-inner" role="listbox">
+				      <div class="item active">
+				        <img src="../img/jon2.png" alt="1" width="460" height="345">
+				      </div>
+
+				      <div class="item">
+				        <img src="../img/3.jpg" alt="3" width="460" height="345">
+				      </div>
+				    
+				      <div class="item">
+				        <img src="../img/6.png" alt="6" width="460" height="345">
+				      </div>
+
+				      <div class="item">
+				        <img src="../img/7.jpg" alt="7" width="460" height="345">
+				      </div>
+				    </div>
+
+				    <p>ASDFASDFASDFASDF</p>
+
+				    <!-- Left and right controls -->
+				    <a class="left carousel-control" href="#kertainCarousel" role="button" data-slide="prev">
+				      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				      <span class="sr-only">Previous</span>
+				    </a>
+				    <a class="right carousel-control" href="#kertainCarousel" role="button" data-slide="next">
+				      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				      <span class="sr-only">Next</span>
+				    </a>
+				  </div>
+				</div>
+			</div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<p><strong>Note:</strong> Click on the linked heading text to expand or collapse accordion panels.</p>
+                              		                                		
 
 			<div class="row">
 				<div class="col-xs-12 text-center">
-					<button class="btn btn-default">My Re-Do Policy</button>
+					<!-- Trigger the modal with a button -->
+					<button type="button" class="btn btn-info btn-lg services-btn" data-toggle="modal" data-target="#redoModal" id="redoBtn">My Re-Do Policy</button>
 				</div>
 			</div>
 			<div class="row">
@@ -84,32 +315,53 @@
 		</section>
 
 
-		<footer class="container">
-			<div class="row">
-				<div class="col-xs-6">
-					<button class="btn btn-default">Book Now!</button>
-				</div>
-				<div class="col-xs-2">
-					<a href="https://www.facebook.com/SaxHair/" target="_blank"><img src="http://placehold.it/45x45"></a>
-					FB
-				</div>
-				<div class="col-xs-2">
-					<a href="https://www.instagram.com/stevensax/" target="_blank"><img src="http://placehold.it/45x45"></a>
-					IG
-				</div>
-				<div class="col-xs-2">
-					<a href="https://www.yelp.com/biz/sax-hair-san-diego" target="_blank"><img src="http://placehold.it/45x45"></a>
-					Y
-				</div>
-			</div>
-		</footer>
+		
 			<!--=========================page content goes ends here=================================-->
 	</main>
 	
+	<!-- Modal -->
+  	<div class="modal fade" id="textModal" role="dialog">
+    	<div class="modal-dialog">
+    
+	      <!-- Modal content-->
+	      <div class="modal-content">
+	        <div class="modal-header">
+	          <button type="button" class="close" data-dismiss="modal">&times;</button>
+	          <h4 class="modal-title">Text or Call for an appointment!</h4><!--<a class="btn btn-default" href="sms:5628338661">Send SMS to us </a>-->
+	        </div>
+	        <div class="modal-body">
+	        	<input id="post-shortlink" value="https://ac.me/qmE_jpnYXFo">
+	        	<button class="btn btn-info services-btn" id="copy-button" data-clipboard-target="#post-shortlink">Copy</button>
+	        </div>
+	        <div class="modal-footer">
+	          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        </div>
+	      </div>
+	      
+	    </div>
+  	</div>
+
+  	<!-- Redo Modal -->
+  	<div class="modal fade" id="redoModal" role="dialog">
+    	<div class="modal-dialog">
+    
+	      <!-- Modal content-->
+	      <div class="modal-content">
+	        <div class="modal-header">
+	          <button type="button" class="close" data-dismiss="modal">&times;</button>
+	          <h4 class="modal-title">Here is my Re-Do Policy!</h4>
+	        </div>
+	        <div class="modal-body">
+	          <p>I'll Re-Do your hair!</p>
+	        </div>
+	        <div class="modal-footer">
+	          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        </div>
+	      </div>  
+	    </div>
+  	</div>
 
 	<!--script for slideout nav-->
-	<script src="dist/slideout.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/0.1.11/slideout.min.js"></script>
     <script>
       var slideout = new Slideout({
         'panel': document.getElementById('panel'),
@@ -124,5 +376,32 @@
       });
 	</script>
 
+	<!--script for copy functionality in modal-->
+  	<script>
+		(function(){
+		    new Clipboard('#copy-button');
+		})();
+	</script>
+
 </body>
+<footer id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-6">
+							<button type="button" class="btn btn-info btn-lg services-btn" data-toggle="modal" data-target="#textModal" id="textBtn">Text Me!</button>
+						</div>
+						<div class="col-xs-2">
+							<a class="btn btn-social-icon btn-facebook btn-lg" href="https://www.facebook.com/SaxHair/" target="_blank"><span class="fa fa-facebook"></span></a>
+							
+						</div>
+						<div class="col-xs-2">
+							<a class="btn btn-social-icon btn-instagram btn-lg" href="https://www.instagram.com/stevensax/" target="_blank"><span class="fa fa-instagram"></span></a>
+							
+						</div>
+						<div class="col-xs-2">
+							<a class="btn btn-social-icon btn-google btn-lg" href="https://www.yelp.com/biz/sax-hair-san-diego" target="_blank"><span class="fa fa-yelp"></span></a>
+						</div>
+					</div>
+				</div>
+			</footer>
 </html>

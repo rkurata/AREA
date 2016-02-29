@@ -11,3 +11,13 @@
 #status td{
 	float:left;
 }
+.info-btn{
+	background-color:#826ace;
+	border-color:#826ace;
+}
+.btn-social-icon{
+	color:#433ca5;
+}
+#footer{
+	background-color:#e1dff4 !important;
+}

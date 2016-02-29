@@ -4,17 +4,23 @@
   <title>SAX Hair</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.4.0/clipboard.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/0.1.11/slideout.min.js"></script>	
+
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="static/css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.12.0/bootstrap-social.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="static/css/main.css">
 </head>
 
 <body>
-	
 	<nav id="menu">
 		<section class="menu-section">
 	        <ul class="menu-section-list">
-	          <li><a href="index.html">About The Owner</a></li>
+	          <li><a href="index.html#bio">About The Owner</a></li>
 	          <li><a href="static/links/services.html">Services</a></li>
 	          <li><a href="static/links/gallery.html">Styles</a></li>
 	          <li><a href="static/links/information.html">Salon Info</a></li>
@@ -23,107 +29,140 @@
 	</nav>
 
 	<main id="panel">
-		<header>
-			<div class="row">
-				<div class="col-xs-6">
-					<i class="fa fa-bars fa-lg toggle-button"></i>
+		<nav class="navbar navbar-default navbar-fixed-top" id="mynav">
+			<div class="container-fluid navbar-fixed-test">
+				<div class="row navbar-header">
+					<div class="col-xs-6">
+						<i class="fa fa-bars fa-lg toggle-button"></i>
+					</div>
+					<div class="col-xs-6 logo"><img src="static/img/nav-logo.jpg">
+					</div>
 				</div>
-				<div class="col-xs-6 logo"><img src="static/img/nav-logo.jpg"></div>
 			</div>
-		</header>
+		</nav>
 
-		<!--=========================page content goes here=======================-->
-		<section class="jumbotron">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12">
+			<!--=========================page content goes here=======================-->
+			<section class="jumbotron">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 text-center">
+						<!--<center><a class="scroll-arrow" onClick="document.getElementById('bio').scrollIntoView();"><img src="static/img/down.png"></a></center>-->
+					</div>
 				</div>
 			</div>
+			</section>
+
+			<!-- Trigger the modal with a button -->
+			<center><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#textModal" id="textBtn">Text Me!</button></center>
+
 			<div class="row">
 				<div class="col-xs-12 text-center">
-					<!--<button class="btn btn-default CTA">down arrow icon</button>-->
-					<center><a class="scroll-arrow" onClick="document.getElementById('bio').scrollIntoView();"><img src="static/img/down.png"></a></center>
-				</div>
-			</div>
-		</div>
-		</section>
+					<h3>Yelp Review</h3>
+						<a href="https://www.yelp.com/biz/sax-hair-san-diego" target="_blank"><img src="http://placehold.it/300x100"></a>
 
-		<div class="row">
-			<div class="col-xs-12 text-center">
-				<h3>Yelp Review</h3>
-					<a href="https://www.yelp.com/biz/sax-hair-san-diego" target="_blank"><img src="http://placehold.it/300x100"></a>
-
-			</div>
-		</div>
-
-		<section class="container" id="bio">
-			<div class="row bio-intro">
-				<div class="col-xs-12 text-center ">
-					<h2>Meet Your Stylists</h2>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-12 bio-pics">
-					<center><img src="static/img/steven2.png">
-					<h3>Steven</h3>
-					<h5>Salon Owner</h5></center>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-12">
-					
-					<p>Hello, I'm Steven Sachs. As a child I knew very young I was overly passionate about creative arts. I didn't exactly know what, however I knew it had to do with hands on. Music and Art appealed to the most, but I stopped playing classical piano for my family and friends, the day my mother handed me my first hair straightener in 8th grade. After coloring and styling my own hair, I remember the high I felt when people treated me differently based on my appearance. I knew then, it was the beauty and wellness industry. I would beg my friends, my mom or anyone around me to let me practice different techniques on their hair. When it wouldn't come out correct, I recall being so frustrated, that I wouldn't stop until I figured it out. I improved my physical self and educated my passion. I lost over 60 lbs my junior & senior year of high school and made a lifestyle transformation. By then, I was failing all of my classes and doing "practice hair" for my friends, my classmates, my mother & her friends. When my teachers saw my passion for hair, they stopped lecturing me on my grades and helped me pick a beauty school I would immediately start in after that summer. I was lucky enough to then become hired by the best manager empire beauty has ever had. Through beauty school, I stayed passionate and would educate and sell hair products at a couple locations for empire beauty. One of the owners decided to give me the opportunity of a lifetime when I finally received my cosmetology license. Remodeling what was once the "employee break room" became the first "Sax Hair." I put my heart, soul & energy 100% into making sure that every client I took was thrilled and satisfied with my art. If my 22 year old self could approach the 19 year old me, I would talk his ear off. Trial and Tribulation has made the "business owner" I am today... However; Giving, Kindness, Honesty, Karma & Sacrifice has made me, an Artist.</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-6 text-center">
-					<button class="btn btn-default">My Re-Do Policy</button>
-				</div>
-				<div class="col-xs-6 text-center">
-					<button class="btn btn-default">Text Me!</button>
-				</div>
-				<hr width="75%" />
 			</div>
 
-			<div class="row">
-				<div class="col-xs-12 bio-pics">
-					<center><img src="static/img/jon2.png">
-						<h3>Jon.</h3>
-					<h5>Assistant</h5></center>
+			<section class="container" id="bio">
+				<div class="row bio-intro">
+					<div class="col-xs-12 text-center ">
+						<h2>Meet Your Stylists</h2>
+					</div>
 				</div>
-			</div>
-			
-			<div class="row">
-				<div class="col-xs-12">
-					
+				<div class="row">
+					<div class="col-xs-12 bio-pics">
+						<center><img src="static/img/steven2.png">
+						<h3>Steven</h3>
+						<h5>Salon Owner</h5></center>
+					</div>
 				</div>
-			</div>
-		</section>
+				<div class="row">
+					<div class="col-xs-12">
+						
+						<p>Hello, I'm Steven Sachs. As a child I knew very young I was overly passionate about creative arts. I didn't exactly know what, however I knew it had to do with hands on. Music and Art appealed to the most, but I stopped playing classical piano for my family and friends, the day my mother handed me my first hair straightener in 8th grade. After coloring and styling my own hair, I remember the high I felt when people treated me differently based on my appearance. I knew then, it was the beauty and wellness industry. </p>
+						<p id="readMore" class="collapse">
+								I would beg my friends, my mom or anyone around me to let me practice different techniques on their hair. When it wouldn't come out correct, I recall being so frustrated, that I wouldn't stop until I figured it out. I improved my physical self and educated my passion. I lost over 60 lbs my junior & senior year of high school and made a lifestyle transformation. By then, I was failing all of my classes and doing "practice hair" for my friends, my classmates, my mother & her friends. When my teachers saw my passion for hair, they stopped lecturing me on my grades and helped me pick a beauty school I would immediately start in after that summer. I was lucky enough to then become hired by the best manager empire beauty has ever had. Through beauty school, I stayed passionate and would educate and sell hair products at a couple locations for empire beauty. One of the owners decided to give me the opportunity of a lifetime when I finally received my cosmetology license. Remodeling what was once the "employee break room" became the first "Sax Hair." I put my heart, soul & energy 100% into making sure that every client I took was thrilled and satisfied with my art. If my 22 year old self could approach the 19 year old me, I would talk his ear off. Trial and Tribulation has made the "business owner" I am today... However; Giving, Kindness, Honesty, Karma & Sacrifice has made me, an Artist.</p>
+						<center><button type="button" class="btn btn-info" data-toggle="collapse" data-target="#readMore">Read More</button></center>
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-xs-6 text-center">
+						<!-- Trigger the modal with a button -->
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#redoModal" id="redoBtn">My Re-Do Policy</button>
+					</div>
+					<div class="col-xs-6 text-center">
+					    <!-- Trigger the modal with a button -->
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#textModal" id="textBtn">Text Me!</button>
+					</div>
+					<hr width="75%" />
+				</div>
 
-		<footer class="container">
-			<div class="row">
-				<div class="col-xs-6">
-					<button class="btn btn-default">Book Now!</button>
+				<div class="row">
+					<div class="col-xs-12 bio-pics">
+						<center><img src="static/img/jon2.png">
+							<h3>Jon.</h3>
+						<h5>Assistant</h5></center>
+					</div>
 				</div>
-				<div class="col-xs-2">
-					<a href="https://www.facebook.com/SaxHair/" target="_blank"><img src="http://placehold.it/45x45"></a>
-					FB
+				
+				<div class="row">
+					<div class="col-xs-12">
+						
+					</div>
 				</div>
-				<div class="col-xs-2">
-					<a href="https://www.instagram.com/stevensax/" target="_blank"><img src="http://placehold.it/45x45"></a>
-					IG
-				</div>
-				<div class="col-xs-2">
-					<a href="https://www.yelp.com/biz/sax-hair-san-diego" target="_blank"><img src="http://placehold.it/45x45"></a>
-				</div>
-			</div>
-		</footer>
-			<!--=========================page content goes ends here=================================-->
+			</section>
+
 	</main>
 
-	<!--script for slideout nav-->
-	<script src="dist/slideout.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/0.1.11/slideout.min.js"></script>
+	<!-- Modal -->
+  	<div class="modal fade" id="textModal" role="dialog">
+    	<div class="modal-dialog">
+    
+	      <!-- Modal content-->
+	      <div class="modal-content">
+	        <div class="modal-header">
+	          <button type="button" class="close" data-dismiss="modal">&times;</button>
+	          <h4 class="modal-title">Text or Call for an appointment!</h4><!--<a class="btn btn-default" href="sms:5628338661">Send SMS to us </a>-->
+	        </div>
+	        <div class="modal-body">
+	        	<input id="post-shortlink" value="https://ac.me/qmE_jpnYXFo">
+	        	<button class="btn btn-info" id="copy-button" data-clipboard-target="#post-shortlink">Copy</button>
+	        </div>
+	        <div class="modal-footer">
+	          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        </div>
+	      </div>
+	      
+	    </div>
+  	</div>
+
+  	<!-- Redo Modal -->
+  	<div class="modal fade" id="redoModal" role="dialog">
+    	<div class="modal-dialog">
+    
+	      <!-- Modal content-->
+	      <div class="modal-content">
+	        <div class="modal-header">
+	          <button type="button" class="close" data-dismiss="modal">&times;</button>
+	          <h4 class="modal-title">Here is my Re-Do Policy!</h4>
+	        </div>
+	        <div class="modal-body">
+	          <p>I'll Re-Do your hair!</p>
+	        </div>
+	        <div class="modal-footer">
+	          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        </div>
+	      </div>  
+	    </div>
+  	</div>
+			<!--=========================page content goes ends here=================================-->
+
+	<!--script for navbar-->
     <script>
       var slideout = new Slideout({
         'panel': document.getElementById('panel'),
@@ -137,6 +176,33 @@
         slideout.toggle();
       });
 	</script>
-  
+
+	<!--script for copy functionality in modal-->
+  	<script>
+		(function(){
+		    new Clipboard('#copy-button');
+		})();
+	</script>
 </body>
+		<footer id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-6">
+							<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#textModal" id="textBtn">Text Me!</button>
+						</div>
+						<div class="col-xs-2">
+							<a class="btn btn-social-icon btn-facebook btn-lg" href="https://www.facebook.com/SaxHair/" target="_blank"><span class="fa fa-facebook"></span></a>
+							
+						</div>
+						<div class="col-xs-2">
+							<a class="btn btn-social-icon btn-instagram btn-lg" href="https://www.instagram.com/stevensax/" target="_blank"><span class="fa fa-instagram"></span></a>
+							
+						</div>
+						<div class="col-xs-2">
+							<a class="btn btn-social-icon btn-google btn-lg" href="https://www.yelp.com/biz/sax-hair-san-diego" target="_blank"><span class="fa fa-yelp"></span></a>
+						</div>
+					</div>
+				</div>
+			</footer>
+
 </html>
