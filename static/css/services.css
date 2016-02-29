@@ -1,0 +1,15 @@
+.services-jumbotron{
+  background-image: url('../img/7.jpg');
+  background-size: cover;
+  height: 300px;
+}
+.services-btn{
+  background-color:#e188ae;
+  border-color:#e188ae;
+}
+.btn-social-icon{
+	color:#ea6578;
+}
+#footer{
+	background-color:#f4e6e8 !important;
+}
