@@ -9,9 +9,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.4.0/clipboard.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/0.1.11/slideout.min.js"></script>	
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.12.0/bootstrap-social.css">
   <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.12.0/bootstrap-social.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="static/css/main.css">
 </head>
@@ -57,74 +57,77 @@
 			</section>
 
 			<!-- Trigger the modal with a button -->
-			<center><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#textModal" style="width:100%;" id="textBtn">Text Me!</button></center>
-
-
+			<center><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#textModal" id="textBtn" style="width:90%;">Text Me!</button></center>
 			<br>
 
 			<div class="row">
 				<div class="col-xs-12 text-center">
-					<h3>Yelp Reviews</h3>
+					<h2 style="padding-top:25px;">Yelp Reviews</h2>
 				</div>
-				<div id="yelpCarousel" class="carousel slide" data-ride="carousel">
-
+				<div id="yelpCarousel" class="carousel slide" data-ride="carousel" data-interval="10000" style="height:450px; width:400px;">
 				    <!-- Indicators -->
-				    <ol class="carousel-indicators">
+				    <!--<ol class="carousel-indicators">
 				      <li data-target="#yelpCarousel" data-slide-to="0" class="active"></li>
 				      <li data-target="#yelpCarousel" data-slide-to="1"></li>
 				      <li data-target="#yelpCarousel" data-slide-to="2"></li>
 				      <li data-target="#yelpCarousel" data-slide-to="3"></li>
-				    </ol>
+				    </ol>-->
 
 				    <!-- Wrapper for slides -->
 				    <div class="carousel-inner" role="listbox">
-				      <div class="item active text-center">
+				      <div class="item active">
 				      	<div class="col-xs-1"></div>
 				      	<div class="col-xs-10">
-				      		<p>"Steven was SO warm and welcoming. I know nothing about skin tones and hair colors, but Steven definitely knew his stuff. I knew I wanted a balayage, and he recommended an ash brown/blonde, caramel balayage. I honestly just put my hair's fate in his hands and trusted him to do whatever...TLDR: Steven knows hair."</p>
-
-							<h4>-Jessica T. (8/5/2016)</h4>
+				      		<p style="font-size:18px;padding-top:20px;"><i class="fa fa-quote-left fa-3x"></i> Steven was SO warm and welcoming. I know nothing about skin tones and hair colors, but Steven definitely knew his stuff. I knew I wanted a balayage, and he recommended an ash brown/blonde, caramel balayage. I honestly just put my hair's fate in his hands and trusted him to do whatever...TLDR: Steven knows hair.</p>
+							<h4>-Jessica T. (1/5/2016)</h4>
 						</div>
 						<div class="col-xs-1"></div>
 				      </div>
-				      <div class="item text-center">
+
+				      <div class="item">
 				      	<div class="col-xs-1"></div>
 				      	<div class="col-xs-10">
-				      		<p>"If you look at the mirror, and you're not 100% happy with what your hair looks like, GO TO STEVEN NOW. Before meeting Steven, I went through a phase with a pink ombre, and it faded out to be a super ratchet orange-y color (see pictures). I tried to just live with it (being pretty scared to get my hair touched by anyone again), and then I saw how ugly my hair looked in the back. Thanks to a sleepless night, I was scrolling through some hair salons near me and THANK GOD I came upon Sax Hair. I legit walked into Sax Hair looking like head ratchet queen, and walked out looking like bae material."</p>
-
+				      		<p><i class="fa fa-quote-left fa-3x"></i> If you look at the mirror, and you're not 100% happy with what your hair looks like, GO TO STEVEN NOW. Before meeting Steven, I went through a phase with a pink ombre, and it faded out to be a super ratchet orange-y color. I tried to just live with it (being pretty scared to get my hair touched by anyone again), and then I saw how ugly my hair looked in the back. I legit walked into Sax Hair looking like head ratchet queen, and walked out looking like bae material.</p>
 							<h4>-Jane M. (2/9/2016)</h4>
 						</div>
 						<div class="col-xs-1"></div>
 				      </div>
-				      <div class="item text-center">
+
+				      <div class="item">
 				      	<div class="col-xs-1"></div>
 				      	<div class="col-xs-10">
-				      		<p>"YES JUST GO HERE! 
+				      		<p><i class="fa fa-quote-left fa-3x"></i> YES JUST GO HERE! 
 							As a person who loves looking at Yelp to make her decisions on food to hair, I would say just pick this one! Pick Steven!
-							I am definitely a hair hopper which means I like to hop around from place to place when it comes to hair, not because I don't like the stylist, I just like trying out different artists. However, Steven is definitely amazing and I think I am actually going to say this - I'm settling down!!! Even after I move back the OC, I'll make the drive down to see Steven. 
-							"</p>
-
+							I am definitely a hair hopper which means I like to hop around from place to place when it comes to hair, not because I don't like the stylist, I just like trying out different artists. However, Steven is definitely amazing and I think I am actually going to say this - I'm settling down!!! Even after I move back the OC, I'll make the drive down to see Steven. </p>
 							<h4>-Denise V. (2/4/2015)</h4>
 						</div>
 						<div class="col-xs-1"></div>
 				      </div>
 				    </div>
+
+
 				    <!-- Left and right controls -->
-				    <a class="left carousel-control" href="#yelpCarousel" role="button" data-slide="prev">
+				    <a class="left carousel-control" href="#yelpCarousel" role="button" data-slide="prev" style="color:#000000">
 				      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 				      <span class="sr-only">Previous</span>
 				    </a>
-				    <a class="right carousel-control" href="#yelpCarousel" role="button" data-slide="next">
-
+				    <a class="right carousel-control" href="#yelpCarousel" role="button" data-slide="next" style="color:#000000">
 				      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 				      <span class="sr-only">Next</span>
 				    </a>
 				 </div> <!--end carousel-->
-			 </div> <!--end row-->
-			 <br>
-				  <center><button class="btn btn-social-icon btn-google btn-lg" ><span class="fa fa-yelp"></span></button><span class="yelp-read-more">Read more reviews</span></a></center><hr>
-			</div>
+				 <br>
+				 <div class="col-xs-2"></div>
+				 <div class="col-xs-2">
+				 	<a class="btn btn-social-icon btn-google btn-lg" href="https://www.yelp.com/biz/sax-hair-san-diego" target="_blank"><span class="fa fa-yelp"></span></a>
+			 	</div>
+			 	<div class="col-xs-6 text-center">
+			 		<h4 style="padding-top:5px;">Read More Reviews!</h4>
+			 	</div>
+			 	<div class="col-xs-2"></div>
+			 </div>
 
+			 <hr noshade="noshade">
 
 			<section class="container" id="bio">
 				<div class="row bio-intro">
@@ -158,12 +161,10 @@
 					</div>
 					<div class="col-xs-6 text-center">
 					    <!-- Trigger the modal with a button -->
-						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#textModal" id="textBtn">Text Me!</button>
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#textModal" id="textBtnBottom">Text Me!</button>
 					</div>
-					<hr width="75%" />
 				</div>
-
-
+				<br>
 			</section>
 	</main>
 
@@ -175,11 +176,11 @@
 	      <div class="modal-content">
 	        <div class="modal-header">
 	          <button type="button" class="close" data-dismiss="modal">&times;</button>
-	          <h4 class="modal-title">Hey Love! Up for a new hairstyle? Please contact me through the number down here. I can’t wait to meet you!</h4><!--<a class="btn btn-default" href="sms:5628338661">Send SMS to us </a>-->
+	          <h4 class="modal-title">Text or Call for an appointment!</h4><!--<a class="btn btn-default" href="sms:5628338661">Send SMS to us </a>-->
 	        </div>
 	        <div class="modal-body">
-	        	<input id="post-shortlink" value="858-254-6254">
-	        	<button class="btn btn-info" id="copy-button" data-clipboard-target="#post-shortlink">Copy</button>
+	        	<center><input id="post-shortlink" value="858-254-6254">
+	        	<button class="btn btn-info" id="copy-button" data-clipboard-target="#post-shortlink">Copy</button></center>
 	        </div>
 	        <div class="modal-footer">
 	          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -197,11 +198,10 @@
 	      <div class="modal-content">
 	        <div class="modal-header">
 	          <button type="button" class="close" data-dismiss="modal">&times;</button>
-	          <h4 class="modal-title">My Re-Do Policy</h4>
+	          <h4 class="modal-title">Here is my Re-Do Policy!</h4>
 	        </div>
 	        <div class="modal-body">
-	          <p>Hey there, Cutie! I just want to let you know that I truly care about you and I don’t want you to leave my salon unsatisfied. If you are not happy with the result, or even 0.01% unsure about it, please give me a chance to rectify it. I will be more than willing to fix your hair for FREE if it means that you will love what you see in the mirror.
-</p>
+	          <p>I'll Re-Do your hair!</p>
 	        </div>
 	        <div class="modal-footer">
 	          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

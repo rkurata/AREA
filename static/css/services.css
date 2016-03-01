@@ -1,11 +1,12 @@
 .services-jumbotron{
-  background-image: url('../img/7.jpg');
-  background-size: cover;
-  height: 300px;
+  background-image: url('../img/services.jpg');
+   background-size: 100%;
+  background-repeat:no-repeat;
+  height:200px;
 }
 .services-btn{
   background-color:#e188ae;
-  border-color:#e188ae;
+  /* border-color:#e188ae; */
 }
 .btn-social-icon{
 	color:#ea6578;
@@ -20,9 +21,31 @@
 	color:#fff;
 	background-color:#9cd0cb;
 }
+.panel-heading h4{
+	font-family:Montserrat;
+}
+.coloring h4{
+	font-family:Montserrat;
+	color:#797b8a;
+}
 .panel-group{
 	margin-top:10%;
 }
 .glyphicon{
 	float:right;
+}
+#yelpCarousel{
+	margin-top:20%;
+	padding:5%;
+}
+.services-jumbotron{
+	font-family:Montserrat;
+	text-transform:uppercase;
+}
+h3{
+	color:#d1215f !important;
+}
+#redoBtn{
+	background-color:#d1215f!important;
+	border-color:#d1215f;
 }
