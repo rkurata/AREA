@@ -67,7 +67,14 @@
   margin-bottom:5px;
   margin-left:-15%;
 }
-
+@font-face {
+    font-family: Droid-Sans;
+    src: url(fonts/DroidSans.ttf);
+}
+@font-face {
+    font-family: Kaushan-Script;
+    src: url(fonts/KaushanScript-Regular.otf);
+}
 
 /*body*/
 body {
@@ -75,10 +82,39 @@ body {
   height: 100%;
   margin-bottom:50px;
 }
+hr{
+  width:75%;
+}
 h1{
   margin-top:35%;
   text-align:center;
   color: #000;
+}
+h2{
+  font-family: Kaushan-Script;
+  color:#d1215f;
+}
+h3{
+  font-family: Kaushan-Script;
+  color:#70358d; /* purple */
+}
+h4{
+  font-family: Droid-Sans;
+}
+p{
+  font-family: Droid-Sans;
+}
+#redoBtn{
+  background-color:#9cd0cb;
+}
+#textBtnBottom{
+  background-color:#9cd0cb;
+}
+#readMoreBtn{
+  background-color:#797b8a;
+}
+#textBtn{
+  background-color:#9cd0cb;
 }
 
 #footer
