@@ -17,6 +17,8 @@
 }
 .btn-social-icon{
 	color:#433ca5;
+	border-color:#433ca5;
+	font-size:20px;
 }
 #footer{
 	background-color:#e1dff4 !important;

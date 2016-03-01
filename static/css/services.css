@@ -9,7 +9,20 @@
 }
 .btn-social-icon{
 	color:#ea6578;
+	border-color:#ea6578;
+	font-size:20px;
 }
 #footer{
 	background-color:#f4e6e8 !important;
+}
+.panel-heading{
+	text-decoration:none;
+	color:#fff;
+	background-color:#9cd0cb;
+}
+.panel-group{
+	margin-top:10%;
+}
+.glyphicon{
+	float:right;
 }
