@@ -1,19 +1,33 @@
-/*-------global variables----------*/
-/*static nav bar*/
+/*====================global variables==================*/
+/*------------------static nav bar---------------*/
 .logo img{
   width:150px;
   margin-left:-50%;
+  margin-top:5px;
 }
 .toggle-button{
   padding-left:10%;
   padding-top:10%;
 }
+header{
+  background-color:#fff;
+  position:fixed;
+  z-index:100;
+  width:100%;
+  height:65px;
+  top:0;
+  left:0;
+  right:0;
+  border-color: rgba(0,0,0,0.2);
+   border-style:solid;
+   border-width:.5px;
+}
+.fa-bars{
+  font-size:35px;
+}
 
-/*==========================test slideout menu*/
 
-/*====================================end test*/
-
-/*nav menu*/
+/*--------------nav menu-----------------------*/
 .slideout-menu {
   position: fixed;
   left: 0;
@@ -25,6 +39,7 @@
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   display: none;
+  margin-top:13.7%;
 }
 
 .slideout-panel {
@@ -70,6 +85,8 @@
   margin-left:-15%;
   background-color:#e188ae;
 }
+
+/*--------------body------------*/
 @font-face {
     font-family: Droid-Sans;
     src: url(fonts/DroidSans.ttf);
@@ -82,12 +99,11 @@
   font-family: Montserrat;
   src: url(fonts/Montserrat-Regular.otf);
 }
-
-/*body*/
 body {
   width: 100%;
   height: 100%;
-  margin-bottom:25%;
+  margin-top:65px;
+  margin-bottom:60px;
 }
 hr{
   width:75%;
@@ -101,11 +117,11 @@ p{
   font-size:16px;
 }
 h2{
-  font-family: Kaushan-Script;
+  font-family: Montserrat;
   color:#d1215f;
 }
 h3{
-  font-family: Kaushan-Script;
+  font-family: Montserrat;
   color:#70358d; /* purple */
 }
 h4{
@@ -115,21 +131,30 @@ p{
   font-family: Droid-Sans;
 }
 #redoBtn{
-  background-color:#9cd0cb;
+  background-color:#ffeebd;
+  border-color:#ffeebd;
+  color:#797b8a;
 }
 #textBtnBottom{
-  background-color:#9cd0cb;
+  background-color:#797b8a;
+  border-color:#797b8a;
 }
 #readMoreBtn{
-  background-color:#797b8a;
+  color:#797b8a;
+  font-weight:bold;
+}
+.glyphicon-chevron-down{
+  top:4px;
+  color:#797b8a;
 }
 #textBtn{
-  background-color:#9cd0cb;
+  background-color:#797b8a;
+  border-color:#797b8a;
 }
 
 #footer
 {
-    background-color:#797b8a;
+    background-color:#e5e5e5;
     position:fixed;
     bottom:0px;
     left:0px;
@@ -150,7 +175,51 @@ input{
   padding-left:5px;
   border-style:solid;
 }
-/*------end global variables--------*/
+.btn-lg{
+  font-size:16px;
+}
+#yelpCarousel p{
+  text-align:left;
+}
+
+/*-----------------------carousel styling----------------*/
+carousel-control.right {
+    right: 0;
+    left: auto;
+    background-image: none;
+    background-image: -o-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+    background-image: none;
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+.carousel-control.right {
+    right: 0;
+    left: auto;
+    background-image: none;
+    background-image: -o-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+    background-image: none;
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+.carousel-control.left {
+    background-image: none;
+    background-image: -o-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+    background-image: none;
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
+  color:#70358d;
+}
+#yelpCarousel .carousel-inner{
+  height:350px;
+}
+
+
+/*=======================end global variables=============================*/
 .btn-default{
   background-color:#;
   border-color:#;
@@ -195,4 +264,18 @@ h3{
 }
 .yelp-read-more{
   font-size:20px;
+}
+.yelp-link{
+  width:90%;
+  margin-top:-5%
+}
+.bio-buttons{
+  width:90%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+.bio-buttons button{
+  width:130px;
+  font-size:16px;
 }

@@ -16,6 +16,15 @@
   <link rel="stylesheet" type="text/css" href="static/css/main.css">
 </head>
 
+<header>
+	<div class="row">
+		<div class="col-xs-6">
+			<i class="fa fa-bars fa-lg toggle-button"></i>
+		</div>
+		<div class="col-xs-6 logo"><img src="static/img/nav-logo.jpg"></div>
+	</div>
+</header>
+
 <body>
 	<nav id="menu">
 		<section class="menu-section">
@@ -29,17 +38,7 @@
 	</nav>
 
 	<main id="panel">
-		<nav class="navbar navbar-default navbar-fixed-top" id="mynav">
-			<div class="container-fluid navbar-fixed-test">
-				<div class="row navbar-header">
-					<div class="col-xs-6">
-						<i class="fa fa-bars fa-lg toggle-button"></i>
-					</div>
-					<div class="col-xs-6 logo"><img src="static/img/nav-logo.jpg">
-					</div>
-				</div>
-			</div>
-		</nav>
+		
 
 			<!--=========================page content goes here=======================-->
 			<section class="jumbotron">
@@ -60,10 +59,12 @@
 			<center><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#textModal" id="textBtn" style="width:90%;">Text Me!</button></center>
 			<br>
 
+			<center>
 			<div class="row">
-				<div class="col-xs-12 text-center">
+				<div class="col-xs-12">
 					<h2 style="padding-top:25px;">Yelp Reviews</h2>
 				</div>
+				
 				<div id="yelpCarousel" class="carousel slide" data-ride="carousel" data-interval="10000" style="height:450px; width:400px;">
 				    <!-- Indicators -->
 				    <!--<ol class="carousel-indicators">
@@ -74,7 +75,8 @@
 				    </ol>-->
 
 				    <!-- Wrapper for slides -->
-				    <div class="carousel-inner" role="listbox">
+				 
+				   	<div class="carousel-inner" role="listbox">
 				      <div class="item active">
 				      	<div class="col-xs-1"></div>
 				      	<div class="col-xs-10">
@@ -105,7 +107,6 @@
 				      </div>
 				    </div>
 
-
 				    <!-- Left and right controls -->
 				    <a class="left carousel-control" href="#yelpCarousel" role="button" data-slide="prev" style="color:#000000">
 				      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -117,17 +118,12 @@
 				    </a>
 				 </div> <!--end carousel-->
 				 <br>
-				 <div class="col-xs-2"></div>
-				 <div class="col-xs-2">
-				 	<a class="btn btn-social-icon btn-google btn-lg" href="https://www.yelp.com/biz/sax-hair-san-diego" target="_blank"><span class="fa fa-yelp"></span></a>
-			 	</div>
-			 	<div class="col-xs-6 text-center">
-			 		<h4 style="padding-top:5px;">Read More Reviews!</h4>
-			 	</div>
-			 	<div class="col-xs-2"></div>
 			 </div>
-
-			 <hr noshade="noshade">
+			</center>
+				<center><a class="btn btn-block btn-social btn-google btn-lg yelp-link"  href="https://www.yelp.com/biz/sax-hair-san-diego" target="_blank">
+				  <span class="fa fa-yelp" ></span>
+				  <center>Read more reviews</center>
+				</a></center>
 
 			<section class="container" id="bio">
 				<div class="row bio-intro">
@@ -139,27 +135,27 @@
 					<div class="col-xs-12 bio-pics">
 						<center><img src="static/img/steven2.png">
 						<h3>Steven</h3>
-						<h5>Salon Owner</h5></center>
+						<h4>Salon Owner</h4></center>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-xs-1"></div>
 					<div class="col-xs-10">
-						
-						<p>Hello, I'm Steven Sachs. As a child I knew very young I was overly passionate about creative arts. I didn't exactly know what, however I knew it had to do with hands on. Music and Art appealed to the most, but I stopped playing classical piano for my family and friends, the day my mother handed me my first hair straightener in 8th grade. After coloring and styling my own hair, I remember the high I felt when people treated me differently based on my appearance. I knew then, it was the beauty and wellness industry. </p>
+						<p>Hello, I'm Steven Sachs. As a child I knew very young I was overly passionate about creative arts. I didn't exactly know what, however I knew it had to do with hands on. Music and Art appealed to the most, but I stopped playing classical piano for my family and friends, the day my mother handed me my first hair straightener in 8th grade. <a data-toggle="collapse" data-target="#readMore" id="readMoreBtn">Read More <i class="glyphicon glyphicon-chevron-down"></i></a></p>
+
 						<p id="readMore" class="collapse">
-								I would beg my friends, my mom or anyone around me to let me practice different techniques on their hair. When it wouldn't come out correct, I recall being so frustrated, that I wouldn't stop until I figured it out. I improved my physical self and educated my passion. I lost over 60 lbs my junior & senior year of high school and made a lifestyle transformation. By then, I was failing all of my classes and doing "practice hair" for my friends, my classmates, my mother & her friends. When my teachers saw my passion for hair, they stopped lecturing me on my grades and helped me pick a beauty school I would immediately start in after that summer. I was lucky enough to then become hired by the best manager empire beauty has ever had. Through beauty school, I stayed passionate and would educate and sell hair products at a couple locations for empire beauty. One of the owners decided to give me the opportunity of a lifetime when I finally received my cosmetology license. Remodeling what was once the "employee break room" became the first "Sax Hair." I put my heart, soul & energy 100% into making sure that every client I took was thrilled and satisfied with my art. If my 22 year old self could approach the 19 year old me, I would talk his ear off. Trial and Tribulation has made the "business owner" I am today... However; Giving, Kindness, Honesty, Karma & Sacrifice has made me, an Artist.</p>
-						<center><button type="button" class="btn btn-info" data-toggle="collapse" data-target="#readMore" id="readMoreBtn">Read More</button></center>
+								After coloring and styling my own hair, I remember the high I felt when people treated me differently based on my appearance. I knew then, it was the beauty and wellness industry.I would beg my friends, my mom or anyone around me to let me practice different techniques on their hair. When it wouldn't come out correct, I recall being so frustrated, that I wouldn't stop until I figured it out. I improved my physical self and educated my passion. I lost over 60 lbs my junior & senior year of high school and made a lifestyle transformation. By then, I was failing all of my classes and doing "practice hair" for my friends, my classmates, my mother & her friends. When my teachers saw my passion for hair, they stopped lecturing me on my grades and helped me pick a beauty school I would immediately start in after that summer. I was lucky enough to then become hired by the best manager empire beauty has ever had. Through beauty school, I stayed passionate and would educate and sell hair products at a couple locations for empire beauty. One of the owners decided to give me the opportunity of a lifetime when I finally received my cosmetology license. Remodeling what was once the "employee break room" became the first "Sax Hair." I put my heart, soul & energy 100% into making sure that every client I took was thrilled and satisfied with my art. If my 22 year old self could approach the 19 year old me, I would talk his ear off. Trial and Tribulation has made the "business owner" I am today... However; Giving, Kindness, Honesty, Karma & Sacrifice has made me, an Artist.</p>
+								<!--<center><a data-toggle="collapse" data-target="#readMore" id="readMoreBtn">Read More <i class="glyphicon glyphicon-chevron-down"></i></a></center>-->
 					</div>
 					<div class="col-xs-1"></div>
 				</div>
 				<br>
-				<div class="row">
-					<div class="col-xs-6 text-center">
+				<div class="row bio-buttons">
+					<div class="col-xs-6">
 						<!-- Trigger the modal with a button -->
-						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#redoModal" id="redoBtn">My Re-Do Policy</button>
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#redoModal" id="redoBtn">Re-Do Policy</button>
 					</div>
-					<div class="col-xs-6 text-center">
+					<div class="col-xs-6">
 					    <!-- Trigger the modal with a button -->
 						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#textModal" id="textBtnBottom">Text Me!</button>
 					</div>
@@ -179,8 +175,10 @@
 	          <h4 class="modal-title">Text or Call for an appointment!</h4><!--<a class="btn btn-default" href="sms:5628338661">Send SMS to us </a>-->
 	        </div>
 	        <div class="modal-body">
-	        	<center><input id="post-shortlink" value="858-254-6254">
-	        	<button class="btn btn-info" id="copy-button" data-clipboard-target="#post-shortlink">Copy</button></center>
+	        	<p>Hey gorgeous! Up for a new hairstyle? Please contact me through the number below.</p>
+				<center><input id="post-shortlink" value="858-254-6254">
+	        		<button class="btn btn-info" id="copy-button" data-clipboard-target="#post-shortlink">Copy</button></center><br>
+				<p>I do not take appointments online because I want to take the time to connect with you on a personal level. I can’t wait to hear from you, love! <br><br>xo, Steven</p>
 	        </div>
 	        <div class="modal-footer">
 	          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -198,10 +196,10 @@
 	      <div class="modal-content">
 	        <div class="modal-header">
 	          <button type="button" class="close" data-dismiss="modal">&times;</button>
-	          <h4 class="modal-title">Here is my Re-Do Policy!</h4>
+	          <h4 class="modal-title">My Re-Do Policy</h4>
 	        </div>
 	        <div class="modal-body">
-	          <p>I'll Re-Do your hair!</p>
+	          <p>Hey there, Cutie! I just want to let you know that I truly care about you and I don’t want you to leave my salon unsatisfied. If you are not happy with the result, or even 0.01% unsure about it, please give me a chance to rectify it. I will be more than willing to fix your hair for FREE if it means that you will love what you see in the mirror.</p>
 	        </div>
 	        <div class="modal-footer">
 	          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -239,15 +237,13 @@
 						<div class="col-xs-6">
 							<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#textModal" id="textBtn">Text Me!</button>
 						</div>
-						<div class="col-xs-2">
-							<a class="btn btn-social-icon btn-facebook btn-lg" href="https://www.facebook.com/SaxHair/" target="_blank"><span class="fa fa-facebook"></span></a>
-							
+						<div class="col-xs-2 footer-icon">
+							<a class="btn btn-social-icon btn-facebook btn-lg" href="https://www.facebook.com/Stevensax/?pnref=lhc" target="_blank"><span class="fa fa-facebook"></span></a>
 						</div>
-						<div class="col-xs-2">
+						<div class="col-xs-2 footer-icon">
 							<a class="btn btn-social-icon btn-instagram btn-lg" href="https://www.instagram.com/stevensax/" target="_blank"><span class="fa fa-instagram"></span></a>
-							
 						</div>
-						<div class="col-xs-2">
+						<div class="col-xs-2 footer-icon">
 							<a class="btn btn-social-icon btn-google btn-lg" href="https://www.yelp.com/biz/sax-hair-san-diego" target="_blank"><span class="fa fa-yelp"></span></a>
 						</div>
 					</div>

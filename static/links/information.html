@@ -11,10 +11,20 @@
 
   <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.12.0/bootstrap-social.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="../css/information.css">
   <link rel="stylesheet" type="text/css" href="../css/main.css">
 </head>
+
+<header>
+	<div class="row">
+		<div class="col-xs-6">
+			<i class="fa fa-bars fa-lg toggle-button"></i>
+		</div>
+		<div class="col-xs-6 logo"><img src="../img/nav-logo.jpg"></div>
+	</div>
+</header>
 
 <body>
 	<!--=================================nav menu=============================-->
@@ -30,14 +40,7 @@
 	</nav>
 
 	<main id="panel">
-		<header>
-			<div class="row">
-				<div class="col-xs-6">
-					<i class="fa fa-bars fa-lg toggle-button"></i>
-				</div>
-				<div class="col-xs-6 logo"><img src="../img/nav-logo.jpg"></div>
-			</div>
-		</header>
+		
 
 		<!--=========================page content goes here=======================-->
 		<div class="container">
@@ -66,7 +69,7 @@
 				</div>
 
 				<div class="col-xs-6">
-					<b>Empire Beauty</b>
+					<p><b>Empire Beauty</b></p>
 					<p>8843 Villa La Jolla Dr
 					<br>San Diego, CA 92037</p>
 					<a class="btn btn-info info-btn" href="https://www.google.com/maps/place/8843+Villa+La+Jolla+Dr,+La+Jolla,+CA+92037/@32.8841059,-117.2352745,15z/data=!4m2!3m1!1s0x80dc06d213403635:0xaba313bb40f9126b"   id="directions-btn"target="_blank">Directions</a>
@@ -105,11 +108,13 @@
 	      <div class="modal-content">
 	        <div class="modal-header">
 	          <button type="button" class="close" data-dismiss="modal">&times;</button>
-	          <h4 class="modal-title">Hey Love! Up for a new hairstyle? Please contact me through the number down here. I can’t wait to meet you!</h4><!--<a class="btn btn-default" href="sms:5628338661">Send SMS to us </a>-->
+	          <h4 class="modal-title">Text or Call for an appointment!</h4><!--<a class="btn btn-default" href="sms:5628338661">Send SMS to us </a>-->
 	        </div>
 	        <div class="modal-body">
-	        	<center><input id="post-shortlink" value="858-254-6254">
-	        	<button class="btn btn-info info-btn" id="copy-button" data-clipboard-target="#post-shortlink">Copy</button></center>
+	        	<p>Hey gorgeous! Up for a new hairstyle? Please contact me through the number below.</p>
+				<center><input id="post-shortlink" value="858-254-6254">
+	        		<button class="btn btn-info" id="copy-button" data-clipboard-target="#post-shortlink">Copy</button></center><br>
+				<p>I do not take appointments online because I want to take the time to connect with you on a personal level. I can’t wait to hear from you, love! <br><br>xo, Steven</p>
 	        </div>
 	        <div class="modal-footer">
 	          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -148,7 +153,7 @@
 							<button type="button" class="btn btn-info btn-lg info-btn" data-toggle="modal" data-target="#textModal" id="textBtn">Text Me!</button>
 						</div>
 						<div class="col-xs-2">
-							<a class="btn btn-social-icon btn-facebook btn-lg" href="https://www.facebook.com/SaxHair/" target="_blank"><span class="fa fa-facebook"></span></a>
+							<a class="btn btn-social-icon btn-facebook btn-lg" href="https://www.facebook.com/Stevensax/?pnref=lhc" target="_blank"><span class="fa fa-facebook"></span></a>
 							
 						</div>
 						<div class="col-xs-2">

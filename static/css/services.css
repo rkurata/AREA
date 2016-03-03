@@ -1,5 +1,5 @@
 .services-jumbotron{
-  background-image: url('../img/services.jpg');
+  background-image: url('../img/services2.jpg');
    background-size: 100%;
   background-repeat:no-repeat;
   height:200px;
@@ -9,8 +9,8 @@
   /* border-color:#e188ae; */
 }
 .btn-social-icon{
-	color:#ea6578;
-	border-color:#ea6578;
+	color:#fff;
+	background-color:#e188ae;
 	font-size:20px;
 }
 #footer{
@@ -19,7 +19,7 @@
 .panel-heading{
 	text-decoration:none;
 	color:#fff;
-	background-color:#9cd0cb;
+	background-color:#d1215f;
 }
 .panel-heading h4{
 	font-family:Montserrat;
@@ -31,8 +31,10 @@
 .panel-group{
 	margin-top:10%;
 }
-.glyphicon{
+
+.panel-title .glyphicon{
 	float:right;
+	color:#fff;
 }
 #yelpCarousel{
 	margin-top:20%;
@@ -46,6 +48,17 @@ h3{
 	color:#d1215f !important;
 }
 #redoBtn{
-	background-color:#d1215f!important;
-	border-color:#d1215f;
+	background-color:#e188ae!important;
+	border-color:#e188ae!important;
+	color:#fff!important;
+	width:90%;
+}
+
+.carousel-inner{
+	height:250px!important;
+}
+a.gallery-link{
+	color:#d1215f;
+	padding:20px;
+	font-size:16px;
 }

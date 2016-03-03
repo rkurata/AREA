@@ -1,5 +1,5 @@
 .info-jumbotron{
-  background-image: url('../img/info.jpg');
+  background-image: url('../img/info3.jpg');
   background-size: 100%;
   background-repeat:no-repeat;
   height:200px;
@@ -18,8 +18,8 @@
 }
 .btn-social-icon{
 	color:#fff;
-	background-color:#433ca5;
-	border-color:#433ca5;
+	background-color:#826ace;
+	border-color:#826ace;
 }
 #footer{
 	background-color:#e1dff4 !important;
@@ -35,4 +35,7 @@ input{
 	border-color:#efefef;
 	padding-left:5px;
 	border-style:solid;
+}
+table{
+	font-family:Droid-Sans;
 }

@@ -1,12 +1,11 @@
 .styles-jumbotron{
-  background-image: url('../img/styles.jpg');
+  background-image: url('../img/styles2.jpg');
  background-size: 100%;
   background-repeat:no-repeat;
   height:200px;
   margin-bottom:5%;
 }
 .gallery-section{
-	margin-top:5%;
 }
 .gallery-img{
 	margin:5%;
@@ -14,10 +13,7 @@
 .gallery-section img{
 	width:100%;
 }
-.ig-link{
-	text-align:center;
-	margin-bottom:5%;
-}
+
 #footer{
     background-color:#797b8a;
     position:fixed;
@@ -30,14 +26,20 @@
     z-index:1;
 }
 
-#pill{
-	background-color: #9cd0cb;
-	color:#ffffff;
-	height:75px;
+a#pill{
+	border-color: #9cd0cb;
+	border-style:solid;
+	border-width:2px;
+	color:#9cd0cb;
+	height:60px;
+	width:86px;
 }
-li a .active{
-	background-color:#000000;
-	color:#000000;
+a#pill h4{
+	font-size:12px!important;
+}
+.active a#pill{
+	background-color:#9cd0cb;
+	color:#fff;
 }
 
 h1{
@@ -51,12 +53,128 @@ h1{
 	width:90%;
 	height:50px;
 	font-family: Droid-Sans;
+	margin-bottom:5%;
 }
 #top a{
-	color:#000;
+	color:#fff;
 }
 .btn-social-icon{
 	color:#fff;
-	border-color:#fff;
+	border-color:#9cd0cb;
+	background-color:#9cd0cb;
+}
+.carousel-inner{
+	height:300px;
+}
+.ig-link{
+  background-color:#3F729B;
+  color:#fff;
+  width:90%;
+  	margin-bottom:5%;
+}
+.glyphicon-chevron-up {
+	color:#9cd0cb;
+	font-size:40px;
+	float:right;
+}
+.top-icon{
+	background-color:#000;
+	margin-bottom:5%!important;
+}
+.gallery-img p{
+	text-align:center;
+}
+#footer{
+	background-color:#e9fffc!important;
+}.styles-jumbotron{
+  background-image: url('../img/styles2.jpg');
+ background-size: 100%;
+  background-repeat:no-repeat;
+  height:200px;
+  margin-bottom:5%;
+}
+.gallery-section{
+}
+.gallery-img{
+	margin:5%;
+}
+.gallery-section, .services-section img{
+	width:100%;
 }
 
+#footer{
+    background-color:#797b8a;
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    height:60px;
+    padding:10px;
+    margin-bottom:0px;
+    z-index:1;
+}
+
+a#pill{
+	border-color: #9cd0cb;
+	border-style:solid;
+	border-width:2px;
+	color:#9cd0cb;
+	height:60px;
+	width:86px;
+}
+a#pill h4{
+	font-size:12px!important;
+}
+.active a#pill{
+	background-color:#9cd0cb;
+	color:#fff;
+}
+
+h1{
+	font-family: Montserrat;
+}
+#top{
+	color: #fff;
+	background-color: #9cd0cb;
+	border-color:#9cd0cb;
+	border-style:solid;
+	width:90%;
+	height:50px;
+	font-family: Droid-Sans;
+	margin-bottom:5%;
+}
+#top a{
+	color:#fff;
+}
+.btn-social-icon{
+	color:#fff;
+	border-color:#9cd0cb;
+	background-color:#9cd0cb;
+}
+.carousel-inner{
+	height:300px;
+}
+.ig-link{
+  background-color:#3F729B;
+  color:#fff;
+  width:90%;
+  	margin-bottom:5%;
+}
+.glyphicon-chevron-up {
+	color:#9cd0cb;
+	font-size:40px;
+	float:right;
+}
+.top-icon{
+	background-color:#000;
+	margin-bottom:5%!important;
+}
+.gallery-img p{
+	text-align:center;
+}
+#footer{
+	background-color:#e9fffc!important;
+}
+.services-section p{
+	text-align:left;
+}
