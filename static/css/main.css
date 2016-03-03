@@ -18,7 +18,7 @@ header{
   top:0;
   left:0;
   right:0;
-  border-color: rgba(0,0,0,0.2);
+  border-color: #e5e5e5;
    border-style:solid;
    border-width:.5px;
 }
@@ -138,8 +138,8 @@ p{
   font-family: Droid-Sans;
 }
 #redoBtn{
-  background-color:#ffe65a;
-  border-color:#ffe65a;
+  background-color:#f9d0d0;
+  border-color:#f9d0d0;
   color:#44474e;
 }
 #textBtnBottom{
@@ -194,6 +194,13 @@ input{
 }
 .fa-quote-left{
   color:#44474e;
+}
+#yelpCarousel{
+  border-style:solid;
+  border-color:#ededed;
+  border-width:.5px;
+  margin:5%;
+  border-radius:5px;
 }
 
 /*-----------------------carousel styling----------------*/

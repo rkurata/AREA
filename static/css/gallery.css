@@ -5,12 +5,11 @@
   height:200px;
   margin-bottom:5%;
 }
-.gallery-section{
-}
+
 .gallery-img{
 	margin:5%;
 }
-.gallery-section img, .services-section img{
+.gallery-section img, .services-section img, .hogwarts-section img{
 	width:100%;
 }
 
@@ -92,4 +91,11 @@ h3{
 }
 span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
   color:#9cd0cb!important;
+}
+.hogwarts-section, .services-section{
+	  border-style:solid;
+  border-color:#ededed;
+  border-width:.5px;
+  margin:5%;
+  border-radius:5px;
 }
