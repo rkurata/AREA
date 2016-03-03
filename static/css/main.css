@@ -60,7 +60,7 @@ header{
 }
 
 .menu-section{
-  margin-top:5%;
+  margin-top:6%;
 }
 #menu{
   background-color:#44474e;
@@ -147,12 +147,12 @@ p{
   border-color:#44474e;
 }
 #readMoreBtn{
-  color:#45474f!important;
+  color:#d1215f!important;
   font-weight:bold;
 }
 .glyphicon-chevron-down{
   top:4px;
-  color:#45474f!important;
+  color:#d1215f!important;
 }
 #textBtn{
   background-color:#44474e;
@@ -173,6 +173,8 @@ p{
 }
 .btn-social-icon{
   font-size:20px;
+  background-color:#d1215f;
+  border-color:#d1215f;
 }
 input{
   border-radius:5px;
@@ -202,7 +204,10 @@ input{
   margin:5%;
   border-radius:5px;
 }
-
+#copy-button{
+  background-color:#d1215f;
+  border-color:#d1215f;
+}
 /*-----------------------carousel styling----------------*/
 carousel-control.right {
     right: 0;
@@ -297,6 +302,6 @@ h3{
   margin-right:auto;
 }
 .bio-buttons button{
-  width:130px;
+  width:120px;
   font-size:16px;
 }

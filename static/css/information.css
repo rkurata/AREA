@@ -18,8 +18,54 @@
 }
 .btn-social-icon{
 	color:#fff;
-	background-color:#70358d;
-	border-color:#70358d;
+	background-color:#70358d!important;
+	border-color:#70358d!important;
+}
+#footer{
+	background-color:#e1dff4 !important;
+}
+.info-jumbotron h1{
+	font-family:Montserrat;
+	  text-transform:uppercase;
+}
+input{
+	border-radius:5px;
+	width:100px;
+	height:35px;
+	border-color:#efefef;
+	padding-left:5px;
+	border-style:solid;
+}
+table{
+	font-family:Droid-Sans;
+}
+.info-page .row{
+	margin-top:8%;
+}
+.info-page{
+	margin-bottom:10%;
+}.info-jumbotron{
+  background-image: url('../img/info3.jpg');
+  background-size: 100%;
+  background-repeat:no-repeat;
+  height:200px;
+}
+#day{
+	text-align:right;
+	padding-right:15%;
+	width:60px;
+}
+#status td{
+	float:left;
+}
+#copy-button, #directions-btn{
+	background-color:#70358d!important;
+	border-color:#70358d!important;
+}
+.btn-social-icon{
+	color:#fff;
+	background-color:#70358d!important;
+	border-color:#70358d!important;
 }
 #footer{
 	background-color:#e1dff4 !important;

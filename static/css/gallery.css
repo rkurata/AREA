@@ -12,6 +12,9 @@
 .gallery-section img, .services-section img, .hogwarts-section img{
 	width:100%;
 }
+h3{
+	text-transform:lowercase!important;
+}
 
 #footer{
     background-color:#797b8a;
@@ -98,4 +101,348 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
   border-width:.5px;
   margin:5%;
   border-radius:5px;
+}
+.hat-img{
+	margin-top:5%;
+	width:20%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}.styles-jumbotron{
+  background-image: url('../img/styles2.jpg');
+ background-size: 100%;
+  background-repeat:no-repeat;
+  height:200px;
+  margin-bottom:5%;
+}
+
+.gallery-img{
+	margin:5%;
+}
+.gallery-section img, .services-section img, .hogwarts-section img{
+	width:100%;
+}
+h3{
+	text-transform:lowercase!important;
+}
+
+#footer{
+    background-color:#797b8a;
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    height:60px;
+    padding:10px;
+    margin-bottom:0px;
+    z-index:1;
+}
+
+a#pill{
+	border-color: #9cd0cb;
+	border-style:solid;
+	border-width:2px;
+	color:#9cd0cb;
+	height:60px;
+	width:86px;
+}
+a#pill h4{
+	font-size:12px!important;
+	color:#45474f;
+}
+.active a#pill{
+	background-color:#9cd0cb;
+	color:#fff;
+}
+
+h1{
+	font-family: Montserrat;
+}
+h3{
+	color:#9cd0cb!important;
+}
+.harry h3{
+	font-family:Kaushan-Script;
+}
+#top{
+	color: #fff;
+	background-color: #9cd0cb;
+	border-color:#9cd0cb;
+	border-style:solid;
+	width:90%;
+	margin-bottom:5%;
+}
+#top a{
+	color:#fff;
+}
+.btn-social-icon{
+	color:#fff;
+	border-color:#9cd0cb!important;
+	background-color:#9cd0cb!important;
+}
+.carousel-inner{
+	height:300px;
+}
+.ig-link{
+  color:#fff;
+  width:90%;
+  margin-bottom:5%;
+}
+.top-icon{
+	background-color:#000;
+	margin-bottom:5%!important;
+}
+.gallery-img p{
+	text-align:center;
+}
+#footer{
+	background-color:#e9fffc!important;
+}
+#copy-button{
+	background-color:#9cd0cb;
+	border-color:#9cd0cb;
+}
+span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
+  color:#9cd0cb!important;
+}
+.hogwarts-section, .services-section{
+	  border-style:solid;
+  border-color:#ededed;
+  border-width:.5px;
+  margin:5%;
+  border-radius:5px;
+}
+.hat-img{
+	margin-top:5%;
+	width:20%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}.styles-jumbotron{
+  background-image: url('../img/styles2.jpg');
+ background-size: 100%;
+  background-repeat:no-repeat;
+  height:200px;
+  margin-bottom:5%;
+}
+
+.gallery-img{
+	margin:5%;
+}
+.gallery-section img, .services-section img, .hogwarts-section img{
+	width:100%;
+}
+h3{
+	text-transform:lowercase!important;
+}
+
+#footer{
+    background-color:#797b8a;
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    height:60px;
+    padding:10px;
+    margin-bottom:0px;
+    z-index:1;
+}
+
+a#pill{
+	border-color: #9cd0cb;
+	border-style:solid;
+	border-width:2px;
+	color:#9cd0cb;
+	height:60px;
+	width:86px;
+}
+a#pill h4{
+	font-size:12px!important;
+	color:#45474f;
+}
+.active a#pill{
+	background-color:#9cd0cb;
+	color:#fff;
+}
+
+h1{
+	font-family: Montserrat;
+}
+h3{
+	color:#9cd0cb!important;
+}
+.harry h3{
+	font-family:Kaushan-Script;
+}
+#top{
+	color: #fff;
+	background-color: #9cd0cb;
+	border-color:#9cd0cb;
+	border-style:solid;
+	width:90%;
+	margin-bottom:5%;
+}
+#top a{
+	color:#fff;
+}
+.btn-social-icon{
+	color:#fff;
+	border-color:#9cd0cb;
+	background-color:#9cd0cb;
+}
+.carousel-inner{
+	height:300px;
+}
+.ig-link{
+  color:#fff;
+  width:90%;
+  margin-bottom:5%;
+}
+.top-icon{
+	background-color:#000;
+	margin-bottom:5%!important;
+}
+.gallery-img p{
+	text-align:center;
+}
+#footer{
+	background-color:#e9fffc!important;
+}
+#copy-button{
+	background-color:#9cd0cb!important;
+	border-color:#9cd0cb!important;
+}
+span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
+  color:#9cd0cb!important;
+}
+.hogwarts-section, .services-section{
+	  border-style:solid;
+  border-color:#ededed;
+  border-width:.5px;
+  margin:5%;
+  border-radius:5px;
+}
+.hat-img{
+	margin-top:5%;
+	width:20%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}.styles-jumbotron{
+  background-image: url('../img/styles2.jpg');
+ background-size: 100%;
+  background-repeat:no-repeat;
+  height:200px;
+  margin-bottom:5%;
+}
+
+.gallery-img{
+	margin:5%;
+}
+.gallery-section img, .services-section img, .hogwarts-section img{
+	width:100%;
+}
+h3{
+	text-transform:lowercase!important;
+}
+
+#footer{
+    background-color:#797b8a;
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    height:60px;
+    padding:10px;
+    margin-bottom:0px;
+    z-index:1;
+}
+
+a#pill{
+	border-color: #9cd0cb;
+	border-style:solid;
+	border-width:2px;
+	color:#9cd0cb;
+	height:60px;
+	width:86px;
+}
+a#pill h4{
+	font-size:12px!important;
+	color:#45474f;
+}
+.active a#pill{
+	background-color:#9cd0cb;
+	color:#fff;
+}
+
+h1{
+	font-family: Montserrat;
+}
+h3{
+	color:#9cd0cb!important;
+}
+.harry h3{
+	font-family:Kaushan-Script;
+}
+#top{
+	color: #fff;
+	background-color: #9cd0cb;
+	border-color:#9cd0cb;
+	border-style:solid;
+	width:90%;
+	margin-bottom:5%;
+}
+#top a{
+	color:#fff;
+}
+.btn-social-icon{
+	color:#fff;
+	border-color:#9cd0cb!important;
+	background-color:#9cd0cb!important;
+}
+.carousel-inner{
+	height:300px;
+}
+.ig-link{
+  color:#fff;
+  width:90%;
+  margin-bottom:5%;
+}
+.top-icon{
+	background-color:#000;
+	margin-bottom:5%!important;
+}
+.gallery-img p{
+	text-align:center;
+}
+#footer{
+	background-color:#e9fffc!important;
+}
+#copy-button{
+	background-color:#9cd0cb;
+	border-color:#9cd0cb;
+}
+span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
+  color:#9cd0cb!important;
+}
+.hogwarts-section, .services-section{
+	  border-style:solid;
+  border-color:#ededed;
+  border-width:.5px;
+  margin:5%;
+  border-radius:5px;
+}
+.hat-img{
+	margin-top:10%;
+	width:20%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.sorting-hat p{
+	margin-top:5%;
+	width:90%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
 }
