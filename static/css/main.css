@@ -24,6 +24,7 @@ header{
 }
 .fa-bars{
   font-size:35px;
+  color:#494a51;
 }
 
 
@@ -62,14 +63,14 @@ header{
   margin-top:5%;
 }
 #menu{
-  background-color:#42474d;
+  background-color:#44474e;
 }
 #menu a {
   color: #fff;
   text-decoration: none;
   padding:10px;
   margin-left:-3%;
-  font-size:20px;
+  font-size:18px;
   font-family:Montserrat;
   text-transform:uppercase;
 }
@@ -80,10 +81,11 @@ header{
 
 #menu li{
   padding:7%;
-  width:120%;
+  width:110%;
   margin-bottom:5px;
   margin-left:-15%;
-  background-color:#e188ae;
+  background-color:#d1215f;
+  border-bottom:solid #fff;
 }
 
 /*--------------body------------*/
@@ -112,17 +114,22 @@ h1{
   margin-top:35%;
   text-align:center;
   color: #000;
+  text-transform:uppercase;
 }
 p{
   font-size:16px;
 }
 h2{
   font-family: Montserrat;
-  color:#d1215f;
+  color:#d1215f; 
+   text-transform:uppercase;
+
 }
 h3{
   font-family: Montserrat;
   color:#70358d; /* purple */
+    text-transform:uppercase;
+
 }
 h4{
   font-family: Droid-Sans;
@@ -131,25 +138,25 @@ p{
   font-family: Droid-Sans;
 }
 #redoBtn{
-  background-color:#ffeebd;
-  border-color:#ffeebd;
-  color:#797b8a;
+  background-color:#ffe65a;
+  border-color:#ffe65a;
+  color:#44474e;
 }
 #textBtnBottom{
-  background-color:#797b8a;
-  border-color:#797b8a;
+  background-color:#44474e;
+  border-color:#44474e;
 }
 #readMoreBtn{
-  color:#797b8a;
+  color:#45474f!important;
   font-weight:bold;
 }
 .glyphicon-chevron-down{
   top:4px;
-  color:#797b8a;
+  color:#45474f!important;
 }
 #textBtn{
-  background-color:#797b8a;
-  border-color:#797b8a;
+  background-color:#44474e;
+  border-color:#44474e;
 }
 
 #footer
@@ -180,6 +187,13 @@ input{
 }
 #yelpCarousel p{
   text-align:left;
+}
+#yelpCarousel h4{
+  font-weight:bold;
+  color:#44474e;
+}
+.fa-quote-left{
+  color:#44474e;
 }
 
 /*-----------------------carousel styling----------------*/
@@ -229,7 +243,7 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
   margin-top:65%;
 }
 .jumbotron {
-  background-image: url('../img/3.jpg');
+  background-image: url('../img/1.png');
   background-size: 100%;
   height: 240px;
 }

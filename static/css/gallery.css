@@ -10,7 +10,7 @@
 .gallery-img{
 	margin:5%;
 }
-.gallery-section img{
+.gallery-section img, .services-section img{
 	width:100%;
 }
 
@@ -36,6 +36,7 @@ a#pill{
 }
 a#pill h4{
 	font-size:12px!important;
+	color:#45474f;
 }
 .active a#pill{
 	background-color:#9cd0cb;
@@ -45,14 +46,18 @@ a#pill h4{
 h1{
 	font-family: Montserrat;
 }
+h3{
+	color:#9cd0cb!important;
+}
+.harry h3{
+	font-family:Kaushan-Script;
+}
 #top{
 	color: #fff;
 	background-color: #9cd0cb;
 	border-color:#9cd0cb;
 	border-style:solid;
 	width:90%;
-	height:50px;
-	font-family: Droid-Sans;
 	margin-bottom:5%;
 }
 #top a{
@@ -67,104 +72,10 @@ h1{
 	height:300px;
 }
 .ig-link{
-  background-color:#3F729B;
   color:#fff;
   width:90%;
-  	margin-bottom:5%;
-}
-.glyphicon-chevron-up {
-	color:#9cd0cb;
-	font-size:40px;
-	float:right;
-}
-.top-icon{
-	background-color:#000;
-	margin-bottom:5%!important;
-}
-.gallery-img p{
-	text-align:center;
-}
-#footer{
-	background-color:#e9fffc!important;
-}.styles-jumbotron{
-  background-image: url('../img/styles2.jpg');
- background-size: 100%;
-  background-repeat:no-repeat;
-  height:200px;
   margin-bottom:5%;
 }
-.gallery-section{
-}
-.gallery-img{
-	margin:5%;
-}
-.gallery-section, .services-section img{
-	width:100%;
-}
-
-#footer{
-    background-color:#797b8a;
-    position:fixed;
-    bottom:0px;
-    left:0px;
-    right:0px;
-    height:60px;
-    padding:10px;
-    margin-bottom:0px;
-    z-index:1;
-}
-
-a#pill{
-	border-color: #9cd0cb;
-	border-style:solid;
-	border-width:2px;
-	color:#9cd0cb;
-	height:60px;
-	width:86px;
-}
-a#pill h4{
-	font-size:12px!important;
-}
-.active a#pill{
-	background-color:#9cd0cb;
-	color:#fff;
-}
-
-h1{
-	font-family: Montserrat;
-}
-#top{
-	color: #fff;
-	background-color: #9cd0cb;
-	border-color:#9cd0cb;
-	border-style:solid;
-	width:90%;
-	height:50px;
-	font-family: Droid-Sans;
-	margin-bottom:5%;
-}
-#top a{
-	color:#fff;
-}
-.btn-social-icon{
-	color:#fff;
-	border-color:#9cd0cb;
-	background-color:#9cd0cb;
-}
-.carousel-inner{
-	height:300px;
-}
-.ig-link{
-  background-color:#3F729B;
-  color:#fff;
-  width:90%;
-  	margin-bottom:5%;
-}
-.glyphicon-chevron-up {
-	color:#9cd0cb;
-	font-size:40px;
-	float:right;
-}
 .top-icon{
 	background-color:#000;
 	margin-bottom:5%!important;
@@ -175,6 +86,10 @@ h1{
 #footer{
 	background-color:#e9fffc!important;
 }
-.services-section p{
-	text-align:left;
+#copy-button{
+	background-color:#9cd0cb;
+	border-color:#9cd0cb;
+}
+span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
+  color:#9cd0cb!important;
 }

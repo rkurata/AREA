@@ -10,7 +10,7 @@
 }
 .btn-social-icon{
 	color:#fff;
-	background-color:#e188ae;
+	background-color:#d1215f;
 	font-size:20px;
 }
 #footer{
@@ -34,7 +34,7 @@
 
 .panel-title .glyphicon{
 	float:right;
-	color:#fff;
+	color:#fff!important;
 }
 #yelpCarousel{
 	margin-top:20%;
@@ -48,10 +48,8 @@ h3{
 	color:#d1215f !important;
 }
 #redoBtn{
-	background-color:#e188ae!important;
-	border-color:#e188ae!important;
-	color:#fff!important;
-	width:90%;
+	margin-top:5%;
+	width:100%;
 }
 
 .carousel-inner{
@@ -64,4 +62,14 @@ a.gallery-link{
 }
 span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
   color:#d1215f!important;
+}
+#copy-button{
+	background-color:#d1215f;
+	border-color:#d1215f;
+}
+.services-reviews{
+	margin-top:5%;
+}
+#yelpCarousel{
+	margin-top:0;
 }
