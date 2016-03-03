@@ -39,3 +39,9 @@ input{
 table{
 	font-family:Droid-Sans;
 }
+.info-page .row{
+	margin-top:8%;
+}
+.info-page{
+	margin-bottom:10%;
+}

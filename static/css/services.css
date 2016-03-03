@@ -55,10 +55,13 @@ h3{
 }
 
 .carousel-inner{
-	height:250px!important;
+	height:300px!important;
 }
 a.gallery-link{
 	color:#d1215f;
 	padding:20px;
 	font-size:16px;
+}
+span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
+  color:#d1215f!important;
 }
