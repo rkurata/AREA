@@ -12,12 +12,7 @@
 	margin-left:auto;
 	margin-right:auto;
 }
-.gallery-section img{
-	width:93%;
-	display:block;
-	margin-left:1.5%;
-	margin-right:auto;
-}
+
 #footer{
     background-color:#797b8a;
 }
@@ -193,6 +188,13 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
   	margin-right:auto;
   	margin-top:-5%;
   }
+  .gallery-section img{
+	width:auto;
+	height:350px;
+	display:block;
+	margin-left:1.5%;
+	margin-right:auto;
+    }
 }
 
 @media(max-width:1280px){
@@ -213,4 +215,10 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
   	height:60px;
 	width:80px;
   }
+  .gallery-section img{
+	width:93%;
+	display:block;
+	margin-left:1.5%;
+	margin-right:auto;
+    }
 }
