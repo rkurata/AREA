@@ -101,6 +101,10 @@ header{
   font-family: Montserrat;
   src: url(fonts/Montserrat-Regular.otf);
 }
+@font-face{
+  font-family:Harry-P;
+  src: url(fonts/HARRYP.ttf)
+}
 body {
   width: 100%;
   height: 100%;
@@ -157,6 +161,7 @@ p{
 #textBtn{
   background-color:#44474e;
   border-color:#44474e;
+  width:90%;
 }
 
 #footer
@@ -256,8 +261,11 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
 }
 .jumbotron {
   background-image: url('../img/1.png');
-  background-size: 100%;
-  height: 240px;
+  background-size:cover;
+  background-repeat:no-repeat;
+  width: 100%;
+  height: 0;
+  padding-top: 59.1%;
 }
 .bio-pics img{
   max-width:200px;
@@ -271,6 +279,7 @@ h3{
 }
 .review{
   margin:5%;
+  text-align:left;
 }
 .review a{
   text-decoration:none;
@@ -304,4 +313,42 @@ h3{
 .bio-buttons button{
   width:120px;
   font-size:16px;
+}
+
+/*====================desktop things only==================*/
+#yelpReviewsDesktop{
+  margin-bottom:8%;
+  display:block;
+  margin-left:5%;
+  margin-right:5%;
+  text-align:left;
+}
+
+/*=========================responsive=======================*/
+@media(min-width:1280px){
+  #yelpCarousel{
+    display:none;
+  }
+  #textBtn, .yelp-link{
+    width:25%;
+  }
+  .bio-mobile{
+    display:none;
+  }
+  .bio-intro{
+    margin-top:8%;
+  }
+  p{
+    font-size:20px;
+  }
+}
+
+@media(max-width:1280px){
+  #yelpReviewsDesktop{
+    display:none;
+  }
+  .bio-desktop{
+    display:none;
+  }
+  
 }

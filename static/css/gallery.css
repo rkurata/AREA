@@ -1,19 +1,17 @@
 .styles-jumbotron{
   background-image: url('../img/styles2.jpg');
- background-size: 100%;
+  background-size:cover;
   background-repeat:no-repeat;
-  height:200px;
-  margin-bottom:5%;
+  width: 100%;
+  height: 0;
+  padding-top: 62.17%;
 }
 
-.gallery-img{
+.gallery-img, .service-section-1, .service-section-2, .service-section-3{
 	margin:5%;
 }
 .gallery-section img, .services-section img, .hogwarts-section img{
 	width:100%;
-}
-h3{
-	text-transform:lowercase!important;
 }
 
 #footer{
@@ -26,6 +24,7 @@ h3{
     padding:10px;
     margin-bottom:0px;
     z-index:1;
+    max-width:100%;
 }
 
 a#pill{
@@ -34,122 +33,19 @@ a#pill{
 	border-width:2px;
 	color:#9cd0cb;
 	height:60px;
-	width:86px;
+	width:80px;
 }
 a#pill h4{
-	font-size:12px!important;
+	font-size:14px;
 	color:#45474f;
-}
-.active a#pill{
-	background-color:#9cd0cb;
-	color:#fff;
-}
-
-h1{
-	font-family: Montserrat;
-}
-h3{
-	color:#9cd0cb!important;
-}
-.harry h3{
-	font-family:Kaushan-Script;
-}
-#top{
-	color: #fff;
-	background-color: #9cd0cb;
-	border-color:#9cd0cb;
-	border-style:solid;
-	width:90%;
-	margin-bottom:5%;
-}
-#top a{
-	color:#fff;
-}
-.btn-social-icon{
-	color:#fff;
-	border-color:#9cd0cb;
-	background-color:#9cd0cb;
-}
-.carousel-inner{
-	height:300px;
-}
-.ig-link{
-  color:#fff;
-  width:90%;
-  margin-bottom:5%;
-}
-.top-icon{
-	background-color:#000;
-	margin-bottom:5%!important;
-}
-.gallery-img p{
 	text-align:center;
 }
-#footer{
-	background-color:#e9fffc!important;
-}
-#copy-button{
-	background-color:#9cd0cb;
-	border-color:#9cd0cb;
-}
-span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
-  color:#9cd0cb!important;
-}
-.hogwarts-section, .services-section{
-	  border-style:solid;
-  border-color:#ededed;
-  border-width:.5px;
-  margin:5%;
-  border-radius:5px;
-}
-.hat-img{
-	margin-top:5%;
-	width:20%;
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
-}.styles-jumbotron{
-  background-image: url('../img/styles2.jpg');
- background-size: 100%;
-  background-repeat:no-repeat;
-  height:200px;
-  margin-bottom:5%;
+.hogwarts-title h4{
+	font-family:Harry-P;
+	font-size:20px!important;
+	margin-top:0px;
 }
 
-.gallery-img{
-	margin:5%;
-}
-.gallery-section img, .services-section img, .hogwarts-section img{
-	width:100%;
-}
-h3{
-	text-transform:lowercase!important;
-}
-
-#footer{
-    background-color:#797b8a;
-    position:fixed;
-    bottom:0px;
-    left:0px;
-    right:0px;
-    height:60px;
-    padding:10px;
-    margin-bottom:0px;
-    z-index:1;
-}
-
-a#pill{
-	border-color: #9cd0cb;
-	border-style:solid;
-	border-width:2px;
-	color:#9cd0cb;
-	height:60px;
-	width:86px;
-}
-a#pill h4{
-	font-size:12px!important;
-	color:#45474f;
-}
 .active a#pill{
 	background-color:#9cd0cb;
 	color:#fff;
@@ -162,7 +58,9 @@ h3{
 	color:#9cd0cb!important;
 }
 .harry h3{
-	font-family:Kaushan-Script;
+	font-family:Harry-P;
+	text-transform:lowercase!important;
+	font-size:35px;
 }
 #top{
 	color: #fff;
@@ -181,12 +79,13 @@ h3{
 	background-color:#9cd0cb!important;
 }
 .carousel-inner{
-	height:300px;
+	height:225px;
 }
 .ig-link{
   color:#fff;
   width:90%;
   margin-bottom:5%;
+  margin-top:5%;
 }
 .top-icon{
 	background-color:#000;
@@ -205,8 +104,8 @@ h3{
 span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
   color:#9cd0cb!important;
 }
-.hogwarts-section, .services-section{
-	  border-style:solid;
+.harry, .service-section-1, .service-section-2, .service-section-3{
+  border-style:solid;
   border-color:#ededed;
   border-width:.5px;
   margin:5%;
@@ -218,231 +117,86 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
-}.styles-jumbotron{
-  background-image: url('../img/styles2.jpg');
- background-size: 100%;
-  background-repeat:no-repeat;
-  height:200px;
-  margin-bottom:5%;
-}
-
-.gallery-img{
-	margin:5%;
-}
-.gallery-section img, .services-section img, .hogwarts-section img{
-	width:100%;
-}
-h3{
-	text-transform:lowercase!important;
-}
-
-#footer{
-    background-color:#797b8a;
-    position:fixed;
-    bottom:0px;
-    left:0px;
-    right:0px;
-    height:60px;
-    padding:10px;
-    margin-bottom:0px;
-    z-index:1;
-}
-
-a#pill{
-	border-color: #9cd0cb;
-	border-style:solid;
-	border-width:2px;
-	color:#9cd0cb;
-	height:60px;
-	width:86px;
-}
-a#pill h4{
-	font-size:12px!important;
-	color:#45474f;
-}
-.active a#pill{
-	background-color:#9cd0cb;
-	color:#fff;
-}
-
-h1{
-	font-family: Montserrat;
-}
-h3{
-	color:#9cd0cb!important;
-}
-.harry h3{
-	font-family:Kaushan-Script;
-}
-#top{
-	color: #fff;
-	background-color: #9cd0cb;
-	border-color:#9cd0cb;
-	border-style:solid;
-	width:90%;
 	margin-bottom:5%;
-}
-#top a{
-	color:#fff;
-}
-.btn-social-icon{
-	color:#fff;
-	border-color:#9cd0cb;
-	background-color:#9cd0cb;
-}
-.carousel-inner{
-	height:300px;
-}
-.ig-link{
-  color:#fff;
-  width:90%;
-  margin-bottom:5%;
-}
-.top-icon{
-	background-color:#000;
-	margin-bottom:5%!important;
-}
-.gallery-img p{
-	text-align:center;
-}
-#footer{
-	background-color:#e9fffc!important;
-}
-#copy-button{
-	background-color:#9cd0cb!important;
-	border-color:#9cd0cb!important;
-}
-span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
-  color:#9cd0cb!important;
-}
-.hogwarts-section, .services-section{
-	  border-style:solid;
-  border-color:#ededed;
-  border-width:.5px;
-  margin:5%;
-  border-radius:5px;
-}
-.hat-img{
-	margin-top:5%;
-	width:20%;
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
-}.styles-jumbotron{
-  background-image: url('../img/styles2.jpg');
- background-size: 100%;
-  background-repeat:no-repeat;
-  height:200px;
-  margin-bottom:5%;
-}
-
-.gallery-img{
-	margin:5%;
-}
-.gallery-section img, .services-section img, .hogwarts-section img{
-	width:100%;
-}
-h3{
-	text-transform:lowercase!important;
-}
-
-#footer{
-    background-color:#797b8a;
-    position:fixed;
-    bottom:0px;
-    left:0px;
-    right:0px;
-    height:60px;
-    padding:10px;
-    margin-bottom:0px;
-    z-index:1;
-}
-
-a#pill{
-	border-color: #9cd0cb;
-	border-style:solid;
-	border-width:2px;
-	color:#9cd0cb;
-	height:60px;
-	width:86px;
-}
-a#pill h4{
-	font-size:12px!important;
-	color:#45474f;
-}
-.active a#pill{
-	background-color:#9cd0cb;
-	color:#fff;
-}
-
-h1{
-	font-family: Montserrat;
-}
-h3{
-	color:#9cd0cb!important;
-}
-.harry h3{
-	font-family:Kaushan-Script;
-}
-#top{
-	color: #fff;
-	background-color: #9cd0cb;
-	border-color:#9cd0cb;
-	border-style:solid;
-	width:90%;
-	margin-bottom:5%;
-}
-#top a{
-	color:#fff;
-}
-.btn-social-icon{
-	color:#fff;
-	border-color:#9cd0cb!important;
-	background-color:#9cd0cb!important;
-}
-.carousel-inner{
-	height:300px;
-}
-.ig-link{
-  color:#fff;
-  width:90%;
-  margin-bottom:5%;
-}
-.top-icon{
-	background-color:#000;
-	margin-bottom:5%!important;
-}
-.gallery-img p{
-	text-align:center;
-}
-#footer{
-	background-color:#e9fffc!important;
-}
-#copy-button{
-	background-color:#9cd0cb;
-	border-color:#9cd0cb;
-}
-span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
-  color:#9cd0cb!important;
-}
-.hogwarts-section, .services-section{
-	  border-style:solid;
-  border-color:#ededed;
-  border-width:.5px;
-  margin:5%;
-  border-radius:5px;
-}
-.hat-img{
-	margin-top:10%;
-	width:20%;
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
 }
 .sorting-hat p{
-	margin-top:5%;
 	width:90%;
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
+}
+
+/*=================responsive================*/
+@media(min-width:1280px){
+	 a#pill{
+    margin-top:15%;
+    width:283px;
+  }
+  a#pill h4{
+    font-size:25px;
+  }
+  .hogwarts-title h4{
+  font-size:35px!important;
+  }
+  .service-section-1{
+    height:780px;
+    width:40%;
+    padding:3% 0;
+  }
+  .service-section-2{
+    height:800px;
+    width:40%;
+    padding:3% 0;
+  }
+  .service-section-3{
+    height:640px;
+    width:40%;
+ 	padding:3% 0;
+  }
+  .service-section-1 img, .service-section-2 img{
+    width:87%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+ h3{
+  	font-size:28px!important;
+  }
+   p{
+  	font-size:20px!important;
+  }
+  .harry h3{
+  	font-size:60px!important;
+  }
+  .services-section p{
+  	text-align:left!important;
+  	margin:7% 5%;
+  }
+  .ig-link, #top{
+  	width:85%;
+  	font-size:20px!important;
+  }
+  #top{
+  	top:25px;
+  }
+  .gallery-section img{
+  	height:350px;
+  	width:auto;
+  }
+  .gallery-img{
+  	display:block;
+  	margin-left:auto;
+  	margin-right:auto;
+  }
+  .harry{
+	margin:3%; 
+	width:44%; 
+	height:480px;	
+  }
+}
+
+@media(max-width:1280px){
+   .before-after h4{
+     margin-top:5px;
+  }
 }
