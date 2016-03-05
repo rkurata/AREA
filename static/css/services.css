@@ -3,6 +3,8 @@
    background-size: 100%;
   background-repeat:no-repeat;
   height:200px;
+  font-family:Montserrat;
+	text-transform:uppercase;
 }
 .services-btn{
   background-color:#e188ae;
@@ -24,26 +26,16 @@
 .panel-heading h4{
 	font-family:Montserrat;
 }
-.coloring h4{
-	font-family:Montserrat;
-	color:#797b8a;
-}
+
 .panel-group{
 	margin-top:10%;
 }
 
-.panel-title .glyphicon{
-	float:right;
-	color:#fff!important;
-}
 #yelpCarousel{
 	margin-top:20%;
 	padding:5%;
 }
-.services-jumbotron{
-	font-family:Montserrat;
-	text-transform:uppercase;
-}
+
 h3{
 	color:#d1215f !important;
 }
@@ -70,82 +62,13 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
 .services-reviews{
 	margin-top:5%;
 }
-#yelpCarousel{
-	margin-top:0;
-}.services-jumbotron{
-  background-image: url('../img/services2.jpg');
-   background-size: 100%;
-  background-repeat:no-repeat;
-  height:200px;
-}
-.services-btn{
-  background-color:#e188ae;
-  /* border-color:#e188ae; */
-}
-.btn-social-icon{
-	color:#fff;
-	background-color:#d1215f;
-	font-size:20px;
-}
-#footer{
-	background-color:#f4e6e8 !important;
-}
-.panel-heading{
-	text-decoration:none;
-	color:#fff;
-	background-color:#d1215f;
-}
-.panel-heading h4{
-	font-family:Montserrat;
-}
 .coloring h4{
 	font-family:Montserrat;
 	color:#797b8a;
 }
-.panel-group{
-	margin-top:10%;
-}
-
 .panel-title .glyphicon{
 	float:right;
 	color:#fff!important;
-}
-#yelpCarousel{
-	margin-top:20%;
-	padding:5%;
-}
-.services-jumbotron{
-	font-family:Montserrat;
-	text-transform:uppercase;
-}
-h3{
-	color:#d1215f !important;
-}
-#redoBtn{
-	margin-top:5%;
-	width:100%;
-}
-
-.carousel-inner{
-	height:300px!important;
-}
-a.gallery-link{
-	color:#d1215f;
-	padding:20px;
-	font-size:16px;
-}
-span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
-  color:#d1215f!important;
-}
-#copy-button{
-	background-color:#d1215f;
-	border-color:#d1215f;
-}
-.services-reviews{
-	margin-top:5%;
-}
-#yelpCarousel{
-	margin-top:0;
 }
 #collapseTwo i{
 	font-size:12px;

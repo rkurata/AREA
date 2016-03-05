@@ -1,39 +1,31 @@
 .styles-jumbotron{
   background-image: url('../img/styles2.jpg');
-  background-size:cover;
-  background-repeat:no-repeat;
-  width: 100%;
-  height: 0;
-  padding-top: 62.17%;
+  margin-bottom:10%;
 }
 
 .gallery-img, .service-section-1, .service-section-2, .service-section-3{
-	margin:5%;
+	margin-top:5%;
 }
-.gallery-section img, .services-section img, .hogwarts-section img{
+.services-section img, .hogwarts-section img{
 	width:100%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
 }
-
+.gallery-section img{
+	width:93%;
+	display:block;
+	margin-left:1.5%;
+	margin-right:auto;
+}
 #footer{
     background-color:#797b8a;
-    position:fixed;
-    bottom:0px;
-    left:0px;
-    right:0px;
-    height:60px;
-    padding:10px;
-    margin-bottom:0px;
-    z-index:1;
-    max-width:100%;
 }
-
 a#pill{
 	border-color: #9cd0cb;
 	border-style:solid;
 	border-width:2px;
 	color:#9cd0cb;
-	height:60px;
-	width:80px;
 }
 a#pill h4{
 	font-size:14px;
@@ -110,6 +102,7 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
   border-width:.5px;
   margin:5%;
   border-radius:5px;
+  width:85%;
 }
 .hat-img{
 	margin-top:5%;
@@ -128,10 +121,11 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
 
 /*=================responsive================*/
 @media(min-width:1280px){
-	 a#pill{
-    margin-top:15%;
-    width:283px;
-  }
+  .styles-jumbotron{
+	  background-size:cover;
+	  background-repeat:no-repeat;
+	  padding-top: 40%;
+	}
   a#pill h4{
     font-size:25px;
   }
@@ -179,10 +173,6 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
   #top{
   	top:25px;
   }
-  .gallery-section img{
-  	height:350px;
-  	width:auto;
-  }
   .gallery-img{
   	display:block;
   	margin-left:auto;
@@ -193,10 +183,34 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
 	width:44%; 
 	height:480px;	
   }
+  .mobile-pills{
+  	display:none;
+  }
+  .desktop-pills{
+  	width:96%;
+  	display:block;
+  	margin-left:auto;
+  	margin-right:auto;
+  	margin-top:-5%;
+  }
 }
 
 @media(max-width:1280px){
+   .styles-jumbotron{
+  background-size:cover;
+  background-repeat:no-repeat;
+  width: 100%;
+  height: 0;
+  padding-top: 62.17%;
+}
    .before-after h4{
      margin-top:5px;
+  }
+  .desktop-pills{
+  	display:none;
+  }
+  a#pill{
+  	height:60px;
+	width:80px;
   }
 }

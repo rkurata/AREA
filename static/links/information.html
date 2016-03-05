@@ -17,12 +17,30 @@
   <link rel="stylesheet" type="text/css" href="../css/main.css">
 </head>
 
-<header>
+<header class="mobile-header">
 	<div class="row">
 		<div class="col-xs-6">
 			<i class="fa fa-bars fa-lg toggle-button"></i>
 		</div>
-		<div class="col-xs-6 logo"><img src="../img/logo.png"></div>
+		<div class="col-xs-6 logo">
+			<img src="../img/logo.png">
+		</div>
+	</div>
+</header>
+
+<header class="desktop-header">
+	<div class="row">
+		<div class="col-xs-4 logo">
+			<a href="../../index.html"><img src="../img/logo.png"></a>
+		</div>
+		<div class="col-xs-8">
+			<ul class="desktop-menu">
+	          <li><a href="../../index.html#bio">About The Owner</a></li>
+	          <li><a href="services.html">Services</a></li>
+	          <li><a href="gallery.html">Styles</a></li>
+	          <li class="active-link"><a href="information.html">Salon Info</a></li>
+	        </ul>
+		</div>
 	</div>
 </header>
 
@@ -34,7 +52,7 @@
 	          <li><a href="../../index.html#bio">About The Owner</a></li>
 	          <li><a href="services.html">Services</a></li>
 	          <li><a href="gallery.html">Styles</a></li>
-	          <li><a href="information.html">Salon Info</a></li>
+	          <li class="active-link"><a href="information.html">Salon Info</a></li>
 	        </ul>
 	    </section>
 	</nav>
