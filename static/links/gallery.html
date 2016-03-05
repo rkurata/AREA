@@ -52,21 +52,112 @@
 			<section class="styles-jumbotron">
 			</section>
 
-		<div class="row">
-			<div class="col-xs-12 text-center">
-				<ul class="nav nav-pills" style="padding-left:20px;">
-				  <li class="active"><a data-toggle="pill" href="#Gallery" id="pill"><h4>Gallery</h4></a></li>
-				  <li><a data-toggle="pill" href="#BeforeAfter" id="pill"><h4>Before & After</h4></a></li>
-				  <li><a data-toggle="pill" href="#Hogwarts" id="pill"><h4>Colors of Hogwarts</h4></a></li>
-				  <li><a data-toggle="pill" href="#Services" id="pill"><h4>Services</h4></a></li>
+		<div class="row top-of-page">
+			<div class="col-xs-12 styles-pills">
+				<ul class="nav nav-pills">
+				  <li class="active"><a data-toggle="pill" href="#Services" id="pill"><h4>Services</h4></a></li>
+				  <li><a data-toggle="pill" href="#Gallery" id="pill"><h4>Gallery</h4></a></li>
+				  <li class="before-after"><a data-toggle="pill" href="#BeforeAfter" id="pill"><h4>Before & After</h4></a></li>
+				  <li class="hogwarts-title"><a data-toggle="pill" href="#Hogwarts" id="pill"><h4>HP Colors</h4></a></li>
 				</ul>
 			</div>
 		</div>
 
-
 		<div class="tab-content">
-			<div id="Gallery" class="tab-pane fade in active">
-			    	<div class="row gallery-section" style="padding-right:30px;">
+			<div id="Services" class="tab-pane fade in active">
+<!--start here-->   <div class="row services-section" id="color-service">
+						<div class="col-md-4 col-sm-6 col-xs-12 img-responsive service-section-1">
+							<h3>Coloring</h3>
+							<p>This process involves going from light to dark, selecting the overall tone or tones you would like in the hair.</p>
+							<img src="../img/services/COLOR.png">
+						</div><!--end column-->
+
+
+						<div class="col-md-4 col-sm-6 col-xs-12 img-responsive service-section-1">
+							<h3>Balayage</h3>
+							<p>Involves going lighter and selecting the overall tone or tones you wish to have in your hair.</p>
+							<img src="../img/services/balayage.jpg">
+						</div><!--end column-->
+
+				
+						<div class="col-md-4 col-sm-6 col-xs-12 img-responsive service-section-2 color">
+							<h3>Color Correction</h3>
+							<p>This process can be anything from removing artificial color OR using multiple coats of color to eliminate "mistake tones". You would then pick a new tone. </p>
+							<img src="../img/services/COLORCORRECTION.png">
+						</div><!--end column-->
+					
+						<div class="col-md-4 col-sm-6 col-xs-12 img-responsive service-section-2">
+							<h3>Haircut</h3>
+							<p>This service includes a "custom made" precision haircut depending on your specific hair type. It can range from specified layers for baby fine hair to make it feel & appear thicker OR specialized texturizing and shaping for thick hair to make it appear less frizzy & easy to style. </p>
+							<img src="../img/services/HAIRCUT.png">
+						</div><!--end column-->
+
+						<div class="col-md-4 col-sm-6 col-xs-12 img-responsive service-section-3">
+							<h3>Toner/Touch Up</h3>
+							<p>This process is intended to maintain your new color or an existing color. Touch ups typically occur on a month-to-month basis.</p>
+								<div id="toner-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+								    <!-- Wrapper for slides -->
+								    <div class="carousel-inner" role="listbox">
+								    	<div class="item active">
+								    		<div class="col-xs-1"></div>
+								      		<div class="col-xs-10"><img src="../img/services/maybetoner.jpg"></div>
+											<div class="col-xs-1"></div>
+										</div>
+									    <div class="item">
+									    	<div class="col-xs-1"></div>
+									    	<div class="col-xs-10"><img src="../img/services/tonerr.jpg"></div>
+											<div class="col-xs-1"></div>
+										</div>
+								    </div>
+
+								    <!-- Left and right controls -->
+								    <a class="left carousel-control" href="#toner-carousel" role="button" data-slide="prev">
+								    	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+								    	<span class="sr-only">Previous</span>
+								    </a>
+								    <a class="right carousel-control" href="#toner-carousel" role="button" data-slide="next">
+								    	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+								    	<span class="sr-only">Next</span>
+								    </a>
+
+								</div><!--end carousel-->
+						</div><!--end column-->
+
+						<div class="col-md-4 col-sm-6 col-xs-12 img-responsive service-section-3">
+							<h3>Global Keratin</h3>
+							<p>This product is a formaldehyde FREE smoothing treatment that reminds me of the Brazilian Blowout, but does not hurt me or my clients." It reducing "frizz" and adds shine by up to 90%. I process it in the shampoo bowl, then flat iron into the client's hair, sealing the cuticle and permanently installing the treatment. </p>
+								<div id="keratin-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+								    <!-- Wrapper for slides -->
+								    <div class="carousel-inner" role="listbox">
+								    	<div class="item active">
+								    		<div class="col-xs-1"></div>
+								      		<div class="col-xs-10"><img src="../img/services/KERATIN.png"></div>
+											<div class="col-xs-1"></div>
+										</div>
+									    <div class="item">
+									    	<div class="col-xs-1"></div>
+									    	<div class="col-xs-10"><img src="../img/services/KERATIN2.png"></div>
+											<div class="col-xs-1"></div>
+										</div>
+								    </div>
+
+								    <!-- Left and right controls -->
+								    <a class="left carousel-control" href="#keratin-carousel" role="button" data-slide="prev">
+								    	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+								    	<span class="sr-only">Previous</span>
+								    </a>
+								    <a class="right carousel-control" href="#keratin-carousel" role="button" data-slide="next">
+								    	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+								    	<span class="sr-only">Next</span>
+								    </a>
+
+								</div><!--end carousel-->
+						</div><!--end column-->
+					</div><!--end row-->
+			</div><!--end services pill-->
+		
+			<div id="Gallery" class="tab-pane fade in">
+			    	<div class="row gallery-section">
 						<center>
 							<div class="col-md-4 col-sm-6 col-xs-12 img-responsive gallery-img">
 								<img src="../img/gallery/4.jpg">
@@ -141,11 +232,10 @@
 					</div>
 <!--start here-->   <div class="row hogwarts-section" style="padding-right:30px;">
 
-						<div class="col-md-4 col-sm-6 col-xs-12 img-responsive gallery-img harry">
+						<div class="col-sm-6 col-xs-12 img-responsive gallery-img harry">
 							<h3>Gryffindor</h3>
-							<p>Chocolatey browns-good girl, sweet, beautiful</p>
-								<div id="Gryffindor-carousel" class="carousel slide" data-ride="carousel" data-interval="false"
->
+							<p>Chocolatey browns-good girl, sweet, beautiful<br><br></p>
+								<div id="Gryffindor-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
 								    <!-- Wrapper for slides -->
 								    <div class="carousel-inner" role="listbox">
 								    	<div class="item active">
@@ -155,22 +245,52 @@
 										</div>
 									    <div class="item">
 									    	<div class="col-xs-1"></div>
-									    	<div class="col-xs-10"><img src="../img/hp/grif/IMG_0540.png"></div>
+									    	<div class="col-xs-10"><img src="../img/hp/grif/Gryffindor1.png"></div>
 											<div class="col-xs-1"></div>
 										</div>
 									    <div class="item">
 								      		<div class="col-xs-1"></div>
-									      	<div class="col-xs-10"><img src="../img/hp/grif/IMG_3438.jpg"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/grif/Gryffindor2.png"></div>
 											<div class="col-xs-1"></div>
 									    </div>
 									    <div class="item">
 									      	<div class="col-xs-1"></div>
-									      	<div class="col-xs-10"><img src="../img/hp/grif/IMG_4592.jpg"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/grif/Gryffindor3.png"></div>
 											<div class="col-xs-1"></div>
 									    </div>
 									    <div class="item">
 									      	<div class="col-xs-1"></div>
-									      	<div class="col-xs-10"><img src="../img/hp/grif/IMG_4793.jpg"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/grif/Gryffindor4.png"></div>
+											<div class="col-xs-1"></div>
+									    </div>
+									    <div class="item">
+									      	<div class="col-xs-1"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/grif/Gryffindor5.png"></div>
+											<div class="col-xs-1"></div>
+									    </div>
+									    <div class="item">
+									      	<div class="col-xs-1"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/grif/Gryffindor6.png"></div>
+											<div class="col-xs-1"></div>
+									    </div>
+									    <div class="item">
+									      	<div class="col-xs-1"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/grif/Gryffindor7.png"></div>
+											<div class="col-xs-1"></div>
+									    </div>
+									    <div class="item">
+									      	<div class="col-xs-1"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/grif/Gryffindor8.png"></div>
+											<div class="col-xs-1"></div>
+									    </div>
+									    <div class="item">
+									      	<div class="col-xs-1"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/grif/Gryffindor9.png"></div>
+											<div class="col-xs-1"></div>
+									    </div>
+									    <div class="item">
+									      	<div class="col-xs-1"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/grif/Gryffindor10.png"></div>
 											<div class="col-xs-1"></div>
 									    </div>
 								    </div>
@@ -184,18 +304,13 @@
 								      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 								      <span class="sr-only">Next</span>
 								    </a>
-
 								</div><!--end carousel-->
 						</div><!--end column-->
-					</div><!--end row-->
-
-
-					<div class="row hogwarts-section" style="padding-right:30px;">
-						<div class="col-md-4 col-sm-6 col-xs-12 img-responsive gallery-img harry">
+					
+						<div class="col-sm-6 col-xs-12 img-responsive gallery-img harry">
 							<h3>Ravenclaw</h3>
 							<p>Edgy, insane, classy, intimidating, colorful, intense, vivid, fashion, high saturation colors</p>
-								<div id="ravenclaw-carousel" class="carousel slide" data-ride="carousel" data-interval="false"
->
+								<div id="ravenclaw-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
 								    <!-- Wrapper for slides -->
 								    <div class="carousel-inner" role="listbox">
 								    	<div class="item active">
@@ -205,22 +320,42 @@
 										</div>
 									    <div class="item">
 									    	<div class="col-xs-1"></div>
-									    	<div class="col-xs-10"><img src="../img/hp/rav/IMG_0006.jpg"></div>
+									    	<div class="col-xs-10"><img src="../img/hp/rav/Ravenclaw1.png"></div>
 											<div class="col-xs-1"></div>
 										</div>
 									    <div class="item">
 								      		<div class="col-xs-1"></div>
-									      	<div class="col-xs-10"><img src="../img/hp/rav/IMG_0010.jpg"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/rav/Ravenclaw2.png"></div>
 											<div class="col-xs-1"></div>
 									    </div>
 									    <div class="item">
 									      	<div class="col-xs-1"></div>
-									      	<div class="col-xs-10"><img src="../img/hp/rav/IMG_0034.jpg"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/rav/Ravenclaw3.jpg"></div>
 											<div class="col-xs-1"></div>
 									    </div>
 									    <div class="item">
 									      	<div class="col-xs-1"></div>
-									      	<div class="col-xs-10"><img src="../img/hp/rav/IMG_0040.jpg"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/rav/Ravenclaw4.png"></div>
+											<div class="col-xs-1"></div>
+									    </div>
+									    <div class="item">
+									      	<div class="col-xs-1"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/rav/Ravenclaw5.png"></div>
+											<div class="col-xs-1"></div>
+									    </div>
+									    <div class="item">
+									      	<div class="col-xs-1"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/rav/Ravenclaw6.png"></div>
+											<div class="col-xs-1"></div>
+									    </div>
+									    <div class="item">
+									      	<div class="col-xs-1"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/rav/Ravenclaw7.png"></div>
+											<div class="col-xs-1"></div>
+									    </div>
+									    <div class="item">
+									      	<div class="col-xs-1"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/rav/Ravenclaw8.png"></div>
 											<div class="col-xs-1"></div>
 									    </div>
 								    </div>
@@ -237,15 +372,11 @@
 
 								</div><!--end carousel-->
 						</div><!--end column-->
-					</div><!--end row-->
-
-				
-					<div class="row hogwarts-section" style="padding-right:30px;">
-						<div class="col-md-4 col-sm-6 col-xs-12 img-responsive gallery-img harry">
+					
+						<div class="col-sm-6 col-xs-12 img-responsive gallery-img harry">
 							<h3 >Slytherin</h3>
 							<p>Blondes-platinum bleach, deep silver gun metal metallic, intimidating bad boy shades</p>
-								<div id="slytherin-carousel" class="carousel slide" data-ride="carousel" data-interval="false"
->
+								<div id="slytherin-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
 								    <!-- Wrapper for slides -->
 								    <div class="carousel-inner" role="listbox">
 								    	<div class="item active">
@@ -255,42 +386,52 @@
 										</div>
 									    <div class="item">
 									    	<div class="col-xs-1"></div>
-									    	<div class="col-xs-10"><img src="../img/hp/slith/IMG_0014.jpg"></div>
+									    	<div class="col-xs-10"><img src="../img/hp/slith/Slytherine1.png"></div>
 											<div class="col-xs-1"></div>
 										</div>
 									    <div class="item">
 								      		<div class="col-xs-1"></div>
-									      	<div class="col-xs-10"><img src="../img/hp/slith/IMG_0016.jpg"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/slith/Slytherine2.png"></div>
 											<div class="col-xs-1"></div>
 									    </div>
 									    <div class="item">
 									      	<div class="col-xs-1"></div>
-									      	<div class="col-xs-10"><img src="../img/hp/slith/IMG_0028.jpg"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/slith/Slytherine3.png"></div>
 											<div class="col-xs-1"></div>
 									    </div>
 									    <div class="item">
 									      	<div class="col-xs-1"></div>
-									      	<div class="col-xs-10"><img src="../img/hp/slith/IMG_0082.jpg"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/slith/Slytherine4.png"></div>
 											<div class="col-xs-1"></div>
 									    </div>
 									    <div class="item">
 									      	<div class="col-xs-1"></div>
-									      	<div class="col-xs-10"><img src="../img/hp/slith/IMG_1260.jpg"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/slith/Slytherine5.png"></div>
 											<div class="col-xs-1"></div>
 									    </div>
 									    <div class="item">
 									      	<div class="col-xs-1"></div>
-									      	<div class="col-xs-10"><img src="../img/hp/slith/IMG_3712.jpg"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/slith/Slytherine6.png"></div>
 											<div class="col-xs-1"></div>
 									    </div>
 									    <div class="item">
 									      	<div class="col-xs-1"></div>
-									      	<div class="col-xs-10"><img src="../img/hp/slith/IMG_3770.jpg"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/slith/Slytherine7.png"></div>
 											<div class="col-xs-1"></div>
 									    </div>
 									    <div class="item">
 									      	<div class="col-xs-1"></div>
-									      	<div class="col-xs-10"><img src="../img/hp/slith/IMG_4415.jpg"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/slith/Slytherine8.png"></div>
+											<div class="col-xs-1"></div>
+									    </div>
+									    <div class="item">
+									      	<div class="col-xs-1"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/slith/Slytherine9.png"></div>
+											<div class="col-xs-1"></div>
+									    </div>
+									    <div class="item">
+									      	<div class="col-xs-1"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/slith/Slytherine10.png"></div>
 											<div class="col-xs-1"></div>
 									    </div>
 								    </div>
@@ -307,13 +448,10 @@
 
 								</div><!--end carousel-->
 						</div><!--end column-->
-					</div><!--end row-->
-
-						
-					<div class="row hogwarts-section" style="padding-right:30px;">
-						<div class="col-md-4 col-sm-6 col-xs-12 img-responsive gallery-img harry">
+					
+						<div class="col-sm-6 col-xs-12 img-responsive gallery-img harry">
 							<h3>Hufflepuff</h3>
-							<p>Wines-red wines, true reds, violets</p>
+							<p>Wines-red wines, true reds, violets<br><br></p>
 								<div id="huff-carousel" class="carousel slide" data-ride="carousel" data-interval="false"
 >
 								    <!-- Wrapper for slides -->
@@ -325,22 +463,52 @@
 										</div>
 									    <div class="item">
 									    	<div class="col-xs-1"></div>
-									    	<div class="col-xs-10"><img src="../img/hp/huff/IMG_0693.jpg"></div>
+									    	<div class="col-xs-10"><img src="../img/hp/huff/Hufflepuff1.png"></div>
 											<div class="col-xs-1"></div>
 										</div>
 									    <div class="item">
 								      		<div class="col-xs-1"></div>
-									      	<div class="col-xs-10"><img src="../img/hp/huff/IMG_1560.jpg"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/huff/Hufflepuff2.png"></div>
 											<div class="col-xs-1"></div>
 									    </div>
 									    <div class="item">
 									      	<div class="col-xs-1"></div>
-									      	<div class="col-xs-10"><img src="../img/hp/huff/IMG_3678.jpg"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/huff/Hufflepuff3.png"></div>
 											<div class="col-xs-1"></div>
 									    </div>
 									    <div class="item">
 									      	<div class="col-xs-1"></div>
-									      	<div class="col-xs-10"><img src="../img/hp/huff/IMG_0008.jpg"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/huff/Hufflepuff4.png"></div>
+											<div class="col-xs-1"></div>
+									    </div>
+									    <div class="item">
+									      	<div class="col-xs-1"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/huff/Hufflepuff5.png"></div>
+											<div class="col-xs-1"></div>
+									    </div>
+									    <div class="item">
+									      	<div class="col-xs-1"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/huff/Hufflepuff6.png"></div>
+											<div class="col-xs-1"></div>
+									    </div>
+									    <div class="item">
+									      	<div class="col-xs-1"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/huff/Hufflepuff7.png"></div>
+											<div class="col-xs-1"></div>
+									    </div>
+									    <div class="item">
+									      	<div class="col-xs-1"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/huff/Hufflepuff8.png"></div>
+											<div class="col-xs-1"></div>
+									    </div>
+									    <div class="item">
+									      	<div class="col-xs-1"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/huff/Hufflepuff9.png"></div>
+											<div class="col-xs-1"></div>
+									    </div>
+									    <div class="item">
+									      	<div class="col-xs-1"></div>
+									      	<div class="col-xs-10"><img src="../img/hp/huff/Hufflepuff10.png"></div>
 											<div class="col-xs-1"></div>
 									    </div>
 								    </div>
@@ -361,120 +529,20 @@
 
 			</div><!--end hogwarts pill-->
 
-			<div id="Services" class="tab-pane fade in">
-<!--start here-->   <div class="row services-section" style="padding-right:30px;" id="color-service">
-						<div class="col-md-4 col-sm-6 col-xs-12 img-responsive gallery-img">
-							<h3>Coloring</h3>
-							<p>This process involves going from light to dark, selecting the overall tone or tones you would like in the hair.</p>
-							<img src="../img/services/COLOR.png">
-						</div><!--end column-->
-					</div><!--end row-->
-
-
-					<div class="row services-section" style="padding-right:30px;">
-						<div class="col-md-4 col-sm-6 col-xs-12 img-responsive gallery-img">
-							<h3>Balayage</h3>
-							<p>Involves going lighter and selecting the overall tone or tones you wish to have in your hair.</p>
-							<img src="../img/services/balayage.jpg">
-						</div><!--end column-->
-					</div><!--end row-->
-
-				
-					<div class="row services-section" style="padding-right:30px;">
-						<div class="col-md-4 col-sm-6 col-xs-12 img-responsive gallery-img">
-							<h3>Color Correction</h3>
-							<p>This process can be anything from removing artificial color OR using multiple coats of color to eliminate "mistake tones". You would then pick a new tone. </p>
-							<img src="../img/services/COLORCORRECTION.png">
-						</div><!--end column-->
-					</div><!--end row-->
-
-					<div class="row services-section" style="padding-right:30px;">
-						<div class="col-md-4 col-sm-6 col-xs-12 img-responsive gallery-img">
-							<h3>Haircut</h3>
-							<p>This service includes a "custom made" precision haircut depending on your specific hair type. It can range from specified layers for baby fine hair to make it feel & appear thicker OR specialized texturizing and shaping for thick hair to make it appear less frizzy & easy to style. </p>
-							<img src="../img/services/HAIRCUT.png">
-						</div><!--end column-->
-					</div><!--end row-->
-
-					<div class="row services-section" style="padding-right:30px;">
-						<div class="col-md-4 col-sm-6 col-xs-12 img-responsive gallery-img">
-							<h3>Toner/Touch Up</h3>
-							<p>This process is intended to maintain your new color or an existing color. Touch ups typically occur on a month-to-month basis.</p>
-								<div id="toner-carousel" class="carousel slide" data-ride="carousel" data-interval="false"
->
-								    <!-- Wrapper for slides -->
-								    <div class="carousel-inner" role="listbox">
-								    	<div class="item active">
-								    		<div class="col-xs-1"></div>
-								      		<div class="col-xs-10"><img src="../img/services/maybetoner.jpg"></div>
-											<div class="col-xs-1"></div>
-										</div>
-									    <div class="item">
-									    	<div class="col-xs-1"></div>
-									    	<div class="col-xs-10"><img src="../img/services/tonerr.jpg"></div>
-											<div class="col-xs-1"></div>
-										</div>
-								    </div>
-
-								    <!-- Left and right controls -->
-								    <a class="left carousel-control" href="#toner-carousel" role="button" data-slide="prev">
-								    	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-								    	<span class="sr-only">Previous</span>
-								    </a>
-								    <a class="right carousel-control" href="#toner-carousel" role="button" data-slide="next">
-								    	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-								    	<span class="sr-only">Next</span>
-								    </a>
-
-								</div><!--end carousel-->
-						</div><!--end column-->
-					</div><!--end row-->
-
-					<div class="row services-section" style="padding-right:30px;">
-						<div class="col-md-4 col-sm-6 col-xs-12 img-responsive gallery-img">
-							<h3>Global Keratin</h3>
-							<p>This product is a formaldehyde FREE smoothing treatment that reminds me of the Brazilian Blowout, but does not hurt me or my clients." It reducing "frizz" and adds shine by up to 90%. I process it in the shampoo bowl, then flat iron into the client;s hair, sealing the cuticle and permanently installing the treatment. </p>
-								<div id="keratin-carousel" class="carousel slide" data-ride="carousel" data-interval="false"
->
-								    <!-- Wrapper for slides -->
-								    <div class="carousel-inner" role="listbox">
-								    	<div class="item active">
-								    		<div class="col-xs-1"></div>
-								      		<div class="col-xs-10"><img src="../img/services/KERATIN.png"></div>
-											<div class="col-xs-1"></div>
-										</div>
-									    <div class="item">
-									    	<div class="col-xs-1"></div>
-									    	<div class="col-xs-10"><img src="../img/services/KERATIN2.png"></div>
-											<div class="col-xs-1"></div>
-										</div>
-								    </div>
-
-								    <!-- Left and right controls -->
-								    <a class="left carousel-control" href="#keratin-carousel" role="button" data-slide="prev">
-								    	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-								    	<span class="sr-only">Previous</span>
-								    </a>
-								    <a class="right carousel-control" href="#keratin-carousel" role="button" data-slide="next">
-								    	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-								    	<span class="sr-only">Next</span>
-								    </a>
-
-								</div><!--end carousel-->
-						</div><!--end column-->
-					</div><!--end row-->
-			</div><!--end services pill-->
-
 					<div class="row">
-						<center><a class="btn btn-block btn-social btn-instagram btn-lg ig-link" >
-						  <span class="fa fa-instagram" ></span>
-						  See more of Steven's work
-						</a></center>
-						<ul class="nav nav-pills">
-							<center><a href="#" class="btn btn-block btn-social btn-instagram btn-lg back-to-top" id="top">Back To Top <span class="glyphicon glyphicon-chevron-up"></span></a></center>
-						</ul>	
+						<div class="col-sm-6 col-xs-12">
+							<center><a class="btn btn-block btn-social btn-instagram btn-lg ig-link" >
+							  <span class="fa fa-instagram" ></span>
+							  See more of Steven's work
+							</a></center>
+						</div>
+						<div class="col-sm-6 col-xs-12">
+							<center><a href=".top-of-page" class="btn btn-block btn-social btn-instagram btn-lg back-to-top" id="top">Back To Top<span class="glyphicon glyphicon-chevron-up"></span></a></center>
+						</div>
 
 					</div><!--end row-->
+
+
 			<!--=========================page content goes ends here=================================-->
 	</main>
 
@@ -523,13 +591,16 @@
 		    new Clipboard('#copy-button');
 		})();
 	</script>
+<!--smooth scroll back to top for gallery page-->
+	<script>
+		$('#top').click(function() {
+                $('html, body').animate({
+                    scrollTop: $($.attr(this, 'href')).offset().top
+                }, 1500);
+                return false;
+            });
+	</script>
 </body>
-
-
-<!--back to the top-->
-<!--<div class="top-icon">
-	<a back-to-top href="#"><i class="glyphicon glyphicon-chevron-up"></i></a>
-</div>-->
 
 <footer id="footer">
 				<div class="container">
