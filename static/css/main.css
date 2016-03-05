@@ -89,7 +89,7 @@ header{
 }
 @font-face{
   font-family:Harry-P;
-  src: url(fonts/HARRYP.ttf)
+  src: url(fonts/HARRYP.TTF)
 }
 body {
   width: 100%;
