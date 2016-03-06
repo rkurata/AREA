@@ -395,5 +395,65 @@ h3{
   }
   .active-link{
   border-bottom:solid #fff;
+  }
+
+
+/*==================iPhones only=====================*/
+.iphone-text{
+  display:none;
+  color:#fff;
+  margin:15% 0 20%;
 }
+
+.modal-body p{
+  width:90%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
+/* iPhone 4 */
+@media screen and (device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2) {
+  .iphone-text{
+      display:block;
+      background-color:#d1215f;
+      border-color:#d1215f;
+  }
+  #post-shortlink, #copy-button{
+    display:none;
+  }
+}
+/*iphone 5*/
+@media screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2){
+   .iphone-text{
+      display:block;
+      background-color:#d1215f;
+      border-color:#d1215f;
+  }
+  #post-shortlink, #copy-button{
+    display:none;
+  }
+}  
+/*iphone 6*/
+@media screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2){
+  .iphone-text{
+      display:block;
+      background-color:#d1215f;
+      border-color:#d1215f;
+  }
+  #post-shortlink, #copy-button{
+    display:none;
+  }
+}  
+/*iphone 6plus*/
+@media screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3){
+  .iphone-text{
+      display:block;
+      background-color:#d1215f;
+      border-color:#d1215f;
+  }
+  #post-shortlink, #copy-button{
+    display:none;
+  }
+}  
+
+
