@@ -184,16 +184,17 @@ input{
   font-weight:bold;
   color:#44474e;
 }
-.fa-quote-left{
-  color:#44474e;
-}
 #yelpCarousel{
   border-style:solid;
   border-color:#ededed;
   border-width:.5px;
-  margin:5%;
   border-radius:5px;
-  width:80%!important;
+  width:81%!important;
+  height:500px!important;
+  margin-bottom:5%;
+}
+.fa-quote-left{
+  color:#44474e;
 }
 #copy-button{
   background-color:#d1215f;
@@ -230,9 +231,6 @@ carousel-control.right {
 }
 span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
   color:#70358d;
-}
-#yelpCarousel .carousel-inner{
-  height:350px;
 }
 
 
