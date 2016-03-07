@@ -1,8 +1,3 @@
-.styles-jumbotron{
-  background-image: url('../img/styles2.jpg');
-  margin-bottom:10%;
-}
-
 .gallery-img, .service-section-1, .service-section-2, .service-section-3{
 	margin-top:5%;
 }
@@ -118,9 +113,11 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
 /*=================responsive================*/
 @media(min-width:1280px){
   .styles-jumbotron{
+   	 background-image: url('../img/styles4.jpg');
 	  background-size:cover;
 	  background-repeat:no-repeat;
-	  padding-top: 40%;
+	  padding-top: 25%;
+	  margin-bottom:10%;
 	}
   a#pill h4{
     font-size:25px;
@@ -213,6 +210,8 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
 
 @media(max-width:1280px){
    .styles-jumbotron{
+   	 background-image: url('../img/styles2.jpg');
+  margin-bottom:10%;
   background-size:cover;
   background-repeat:no-repeat;
   width: 100%;

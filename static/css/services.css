@@ -90,3 +90,13 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
 		padding-top:3%;
 	}
 }
+@media(min-width:1280px){
+	.services-jumbotron{
+	  background-image: url('../img/services3.jpg');
+	   background-size:cover;
+	  background-repeat:no-repeat;
+	  width: 100%;
+	  height: 0;
+	  padding-top: 25%;
+	}
+}
