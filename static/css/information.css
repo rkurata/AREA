@@ -6,8 +6,22 @@
 }
 #day{
 	text-align:right;
-	padding-right:15%;
 	width:60px;
+	font-size: 20px;
+}
+#dayTues{
+	text-align:center;
+	width:60px;
+	font-size: 20px;
+}
+#dayMon{
+	text-align:center;
+	width:60px;
+	font-size: 20px;
+}
+#status{
+	font-size: 20px;
+	padding-left: 20px;
 }
 #status td{
 	float:left;
@@ -17,6 +31,11 @@
 	border-color:#70358d;
 }
 .btn-social-icon{
+	color:#fff;
+	background-color:#70358d!important;
+	border-color:#70358d!important;
+}
+.btn-social{
 	color:#fff;
 	background-color:#70358d!important;
 	border-color:#70358d!important;
@@ -103,5 +122,31 @@ table{
 	  width: 100%;
 	  height: 0;
 	  padding-top: 25%;
-	  }
+	  margin-bottom: -1%;
+	}
+	#day{
+		padding-left:18em;
+	}
+	#dayTues{
+		padding-left:14em;
+	}
+	#dayMon{
+		padding-left:14em;
+	}
+	#hoursRow{
+		margin-top: 5%;
+		margin-bottom: 15%
+	}
+	#infoTable{
+		margin-top: -10%;
+		margin-bottom: 5%;
+	}
+	#appointments{
+		margin-top: -0.5%;
+		margin-bottom: 5%;
+	}
+	#consultations{
+		margin-top: -0.1%;
+		margin-bottom:-5%;
+	}
 }

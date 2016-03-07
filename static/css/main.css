@@ -166,6 +166,10 @@ p{
   background-color:#d1215f;
   border-color:#d1215f;
 }
+.btn-social{
+  background-color:#d1215f;
+  border-color:#d1215f;
+}
 input{
   border-radius:5px;
   width:100px;
@@ -244,7 +248,7 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
   margin-top:65%;
 }
 .jumbotron {
-  background-image: url('../img/3.JPG');
+  background-image: url('../img/3.jpg');
   background-size:cover;
   background-repeat:no-repeat;
   width: 100%;
@@ -254,7 +258,6 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
 .bio-pics img{
   max-width:200px;
 }
-
 h3{
   text-align:center;
 }
@@ -311,7 +314,25 @@ h3{
     display:none;
   }
   #textBtn, .yelp-link{
-    width:25%;
+    width:70%;
+  }
+  #fbButtonMobile{
+    display: none;
+  }
+  #instaButtonMobile{
+    display:none;
+  }
+  #yelpButtonMobile{
+    display:none;
+  }
+  #fbButton{
+
+  }
+  #instaButton{
+    margin-left: 10%;
+  } 
+  #yelpButton{
+    margin-top: 0.15%;
   }
   .bio-mobile{
     display:none;
@@ -378,6 +399,15 @@ h3{
 }
 
 @media(max-width:1280px){
+  #fbButton{
+    display:none;
+  }
+  #instaButton{
+    display:none;
+  }
+  #yelpButton{
+    display:none;
+  }
   #yelpReviewsDesktop{
     display:none;
   }
