@@ -43,11 +43,9 @@ h3{
 	width:100%;
 }
 
-
 a.gallery-link{
 	color:#d1215f;
-	padding:20px;
-	font-size:16px;
+	font-size:14px;
 }
 span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
   color:#d1215f!important;
@@ -56,6 +54,9 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
 	background-color:#d1215f;
 	border-color:#d1215f;
 }
+#stylespane p{
+	width:90%;
+}
 .services-reviews{
 	margin-top:5%;
 }
@@ -63,6 +64,7 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
 	font-family:Montserrat;
 	color:#797b8a;
 }
+
 .panel-title .glyphicon{
 	float:right;
 	color:#fff!important;
@@ -98,5 +100,9 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
 	  width: 100%;
 	  height: 0;
 	  padding-top: 25%;
+	}
+	a.gallery-link{
+		font-size:16px;
+		margin-right:8%;
 	}
 }
