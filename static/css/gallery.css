@@ -8,6 +8,7 @@
 	margin-right:auto;
 }
 
+
 #footer{
     background-color:#797b8a;
 }
@@ -60,15 +61,15 @@ h3{
 	border-color:#9cd0cb!important;
 	background-color:#9cd0cb!important;
 }
+.btn-social{
+  color:#fff;
+  border-color:#9cd0cb!important;
+  background-color:#9cd0cb!important;
+}
 .carousel-inner{
 	height:225px;
 }
-.ig-link{
-  color:#fff;
-  width:90%;
-  margin-bottom:5%;
-  margin-top:5%;
-}
+
 .top-icon{
 	background-color:#000;
 	margin-bottom:5%!important;
@@ -113,12 +114,14 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
 /*=================responsive================*/
 @media(min-width:1280px){
   .styles-jumbotron{
-   	 background-image: url('../img/styles4.jpg');
-	  background-size:cover;
-	  background-repeat:no-repeat;
-	  padding-top: 25%;
-	  margin-bottom:10%;
-	}
+    background-image: url('../img/styles4.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: 25%;
+    margin-bottom: 5.5%;
+  }
   a#pill h4{
     font-size:25px;
   }
@@ -138,7 +141,7 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
   .service-section-3{
     height:640px;
     width:40%;
- 	padding:3% 0;
+ 	  padding:3% 0;
   }
   .service-section-1 img, .service-section-2 img{
     width:87%;
@@ -159,12 +162,13 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
   	text-align:left!important;
   	margin:7% 5%;
   }
-  .ig-link, #top{
-  	width:85%;
-  	font-size:20px!important;
-  }
+ 
   #top{
-  	top:25px;
+    width:85%;
+    font-size:20px!important;
+  }
+  #seeMore{
+    font-size: 20px;
   }
   .gallery-img{
   	display:block;
@@ -233,5 +237,15 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
 	display:block;
 	margin-left:1.5%;
 	margin-right:auto;
-    }
+  }
+  #seeMore{
+    margin-bottom: 8%;
+    font-size: 15px;
+    width:85%;
+  }
+  #top{
+    width:85%;
+    font-size:15px!important;
+  }
+
 }
