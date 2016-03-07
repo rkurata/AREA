@@ -316,6 +316,9 @@ h3{
   #textBtn, .yelp-link{
     width:70%;
   }
+  #redoBtn, #textBtnBottom{
+    width:80%;
+  }
   #fbButtonMobile{
     display: none;
   }
@@ -324,9 +327,6 @@ h3{
   }
   #yelpButtonMobile{
     display:none;
-  }
-  #fbButton{
-
   }
   #instaButton{
     margin-left: 10%;
