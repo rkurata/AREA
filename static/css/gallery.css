@@ -208,6 +208,9 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
     .before-section{
       padding-bottom:0;
     }
+    .harry, .service-section-1, .service-section-2, .service-section-3{
+      height:430px;
+    }
 }
 
 @media(max-width:1280px){
