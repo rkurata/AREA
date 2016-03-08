@@ -98,6 +98,9 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
 	#redoBtn{
 		width:100%important;
 	}
+	#services-yelp-carousel-desktop{
+		display:none;
+	}
 }
 @media(min-width:1280px){
 	.services-jumbotron{
@@ -121,5 +124,12 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
    }
    #redoBtn{
    	width:30%!important;
+   }
+   #services-yelp-carousel{
+   	display:none;
+   }
+   #services-yelp-carousel-desktop .col-md-6{
+   	margin:5%;
+   	width:40%;
    }
 }
