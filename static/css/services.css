@@ -110,4 +110,10 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
 		font-size:16px;
 		margin-right:8%;
 	}
+	.panel-heading h4{
+	font-size:20px;
+   }
+   #services-yelp-carousel{
+   	height:300px;
+   }
 }
