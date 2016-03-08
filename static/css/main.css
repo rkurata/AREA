@@ -196,7 +196,7 @@ input{
   border-width:.5px;
   border-radius:5px;
   width:81%!important;
-  height:500px!important;
+  height:520px!important;
   margin-bottom:5%;
 }
 .fa-quote-left{
@@ -422,6 +422,9 @@ h3{
   }
   #yelpButton{
     display:none;
+  }
+  #textBtn{
+    width:100%!important;
   }
   #yelpReviewsDesktop{
     display:none;
