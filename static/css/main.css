@@ -312,8 +312,11 @@ h3{
   #yelpCarousel{
     display:none;
   }
+  #textBtn{
+    margin-top:5%;
+  }
   #textBtn, .yelp-link{
-    width:70%;
+    width:30%;
   }
   #redoBtn, #textBtnBottom{
     width:80%;
