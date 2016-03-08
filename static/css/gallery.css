@@ -69,10 +69,7 @@ h3{
 .carousel-inner{
   height:325px;
 }
-.harry img{
-  height:325px;
-  width:auto;
-}
+
 .top-icon{
   background-color:#000;
   margin-bottom:5%!important;
@@ -161,6 +158,10 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
   .harry h3{
     font-size:60px!important;
   }
+  .harry img{
+  height:325px;
+  width:auto;
+}
   .services-section p{
     text-align:left!important;
     margin:7% 5%;
@@ -248,5 +249,11 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
     width:85%;
     font-size:15px!important;
   }
-
+  .harry img{
+    width:95%;
+    height:auto;
+  }
+  .harry{
+    height:400px;
+  }
 }

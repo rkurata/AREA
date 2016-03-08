@@ -138,4 +138,7 @@ table{
 	#daySun, #dayTues, #dayMon, #status{
 	  	font-size:20px;
 	  }
+	 .directions{
+	 	margin-bottom:5%;
+	 }
 }
