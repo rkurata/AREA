@@ -205,7 +205,7 @@ input{
   border-color:#d1215f;
 }
 /*-----------------------carousel styling----------------*/
-carousel-control.right {
+.carousel-control.right {
     right: 0;
     left: auto;
     background-image: none;
@@ -247,14 +247,7 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
 .CTA{
   margin-top:65%;
 }
-.jumbotron {
-  background-image: url('../img/3.jpg');
-  background-size:cover;
-  background-repeat:no-repeat;
-  width: 100%;
-  height: 0;
-  padding-top: 59%;
-}
+
 .bio-pics img{
   max-width:200px;
 }
@@ -298,6 +291,9 @@ h3{
   width:120px;
   font-size:16px;
 }
+ #homeCarousel span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
+  color:#fff;
+ }
 
 /*====================desktop things only==================*/
 #yelpReviewsDesktop{
@@ -385,16 +381,30 @@ h3{
   .active-link{
      border-bottom:solid #d1215f;
   }
-  .jumbotron {
-  background-image: url('../img/32.jpg');
-  background-size:cover;
-  background-repeat:no-repeat;
-  width: 100%;
-  height: 0;
-  padding-top: 25%;
- }
+ 
  .iphone-text{
    display:none;
+ }
+ #homeCarousel img{
+   width:125%;
+   height:auto;
+   margin-left:-12%;
+ }
+ #homeCarousel ol{
+   margin-bottom:6%;
+ }
+  .see-more{
+   background-color:#d1215f;
+   height:65px;
+   margin-top:-.5%;
+   margin-bottom:2%;
+ }
+ .see-more a{
+   padding-top:1.5%;
+   color:#fff;
+   font-size:18px;
+   padding-right:2%;
+   float:right;
  }
 }
 
@@ -437,6 +447,30 @@ h3{
   .active-link{
   border-bottom:solid #fff;
   }
+   #homeCarousel img{
+   width:135%;
+   height:auto;
+   margin-left:-17%;
+   margin-bottom:3%;
+ }
+ #homeCarousel ol{
+   bottom:15px;
+   display:none;
+ }
+ .see-more{
+   background-color:#d1215f;
+   height:45px;
+   margin-top:-5%;
+   margin-bottom:10%;
+ }
+ .see-more a{
+   padding-top:3%;
+   color:#fff;
+   font-size:15px;
+   padding-right:2%;
+   float:right;
+ }
+}
 
 
 /*==================iPhones only=====================*/
