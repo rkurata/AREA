@@ -144,10 +144,12 @@ p{
   top:4px;
   color:#d1215f!important;
 }
-#textBtn{
+#textBtn, #textBtnTop{
   background-color:#44474e;
   border-color:#44474e;
-  width:90%;
+}
+#textBtn{
+   width:50%
 }
 
 #footer{
@@ -312,10 +314,10 @@ h3{
   #yelpCarousel{
     display:none;
   }
-  #textBtn{
+  #textBtnTop{
     margin-top:5%;
   }
-  #textBtn, .yelp-link{
+  #textBtnTop, .yelp-link{
     width:30%;
   }
   #redoBtn, #textBtnBottom{
