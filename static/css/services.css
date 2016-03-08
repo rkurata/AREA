@@ -44,7 +44,7 @@ h3{
 }
 #redoBtn{
 	margin-top:5%;
-	width:30%!important;
+	
 }
 
 a.gallery-link{
@@ -95,6 +95,9 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
 	.panel-heading h4{
 		padding-top:3%;
 	}
+	#redoBtn{
+		width:100%important;
+	}
 }
 @media(min-width:1280px){
 	.services-jumbotron{
@@ -115,5 +118,8 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
    }
    #services-yelp-carousel{
    	height:300px;
+   }
+   #redoBtn{
+   	width:30%!important;
    }
 }
