@@ -51,6 +51,7 @@ h3{
   border-color:#9cd0cb;
   border-style:solid;
   width:90%;
+  margin-top:5%;
   margin-bottom:5%;
 }
 #top a{
@@ -243,10 +244,10 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
   #seeMore{
     margin-bottom: 8%;
     font-size: 15px;
-    width:85%;
+    width:90%;
   }
   #top{
-    width:85%;
+    width:90%;
     font-size:15px!important;
   }
   .harry img{
