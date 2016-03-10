@@ -296,6 +296,9 @@ h3{
  #homeCarousel span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
   color:#fff;
  }
+  #homeCarouselMobile span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left{
+  color:#fff;
+ }
 
 /*====================desktop things only==================*/
 #yelpReviewsDesktop{
@@ -411,6 +414,9 @@ h3{
    padding-right:2%;
    float:right;
  }
+ #homeCarouselMobile{
+   display:none;
+ }
 }
 
 @media(max-width:1280px){
@@ -455,14 +461,16 @@ h3{
   .active-link{
   border-bottom:solid #fff;
   }
-   #homeCarousel img{
+   #homeCarouselMobile img{
    width:135%;
    height:auto;
    margin-left:-17%;
    margin-bottom:3%;
  }
- #homeCarousel ol{
-   bottom:15px;
+ #homeCarouselMobile ol{
+   display:none;
+ }
+ #homeCarousel{
    display:none;
  }
  .see-more{
